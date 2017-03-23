@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_more_operation_share_moment</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_more_operation_share_moment">
+            <rect id="icon" x="0" y="0" width="168" height="168"></rect>
+            <rect id="background" fill="#20DF5C" x="0" y="0" width="168" height="168" rx="36"></rect>
+            <path d="M63.6516142,43.8526243 C54.0336796,48.7370781 46.406366,56.9760726 42.3098449,67.0294365 L86.8284271,67.0294373 L63.6516142,43.8526243 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M43.8526243,104.348386 C48.7370781,113.96632 56.9760726,121.593634 67.0294365,125.690155 L67.0294373,81.1715729 L43.8526243,104.348386 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M104.348386,124.147376 C113.96632,119.262922 121.593634,111.023927 125.690155,100.970563 L81.1715729,100.970563 L104.348386,124.147376 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M124.147376,63.6516142 C119.262922,54.0336796 111.023927,46.406366 100.970563,42.3098449 L100.970563,86.8284271 L124.147376,63.6516142 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M41.2203876,70 C39.7792847,74.406344 39,79.1121662 39,84 C39,90.1990478 40.253468,96.1053325 42.5207749,101.479225 L74,70 L41.2203876,70 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M101.479225,125.479225 C96.1053325,127.746532 90.1990478,129 84,129 C79.1121662,129 74.406344,128.220715 70,126.779612 L70,94 L101.479225,125.479225 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M126.779612,98 C128.220715,93.593656 129,88.8878338 129,84 C129,77.8009522 127.746532,71.8946675 125.479225,66.5207749 L94,98 L126.779612,98 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M98,41.2203876 C93.593656,39.7792847 88.8878338,39 84,39 C77.8009522,39 71.8946675,40.253468 66.5207749,42.5207749 L98,74 L98,41.2203876 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

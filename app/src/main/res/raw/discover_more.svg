@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="504px" height="516px" viewBox="0 0 504 516" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>discover_more</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,0 L0,447 L288.003703,447 C301.256492,447 312,436.254505 312,423.006889 L312,23.9931105 C312,10.7420815 301.260254,0 288.003703,0 L0,0 Z" id="path-1"></path>
+        <path d="M0,0 L0,447 L288.003703,447 C301.256492,447 312,436.254505 312,423.006889 L312,23.9931105 C312,10.7420815 301.260254,0 288.003703,0 L0,0 Z" id="path-3"></path>
+        <path d="M0,0 L0,516 L335.995682,516 C349.252901,516 360,505.252275 360,491.997425 L360,24.0025755 C360,10.7463191 349.250371,0 335.995682,0 L0,0 Z" id="path-5"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="discover_more">
+            <g id="book" transform="translate(192.000000, 69.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="background" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M30,42 L251.997826,42 C261.946144,42 270,50.0594236 270,60.0012264 L270,386.998774 C270,396.941537 261.940152,405 251.997826,405 L30,405 L30,42 Z M34.5,400.5 L251.997826,400.5 C259.455293,400.5 265.5,394.455834 265.5,386.998774 L265.5,60.0012264 C265.5,52.5424568 259.458614,46.5 251.997826,46.5 L34.5,46.5 L34.5,400.5 Z" id="border" fill-opacity="0.5" fill="#95FF77" fill-rule="nonzero" mask="url(#mask-2)"></path>
+                <path d="M0,0 L288.003703,0 C301.260254,0 312,10.7420815 312,23.9931105 L312,423.006889 C312,436.254505 301.256492,447 288.003703,447 L0,447 L0,0 Z M4,443 L288.003703,443 C299.046205,443 308,434.046514 308,423.006889 L308,23.9931105 C308,12.9499432 299.049837,4 288.003703,4 L4,4 L4,443 Z" id="border" fill="#008CFF" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            </g>
+            <g id="book" transform="translate(0.000000, 69.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <use id="background" fill="#FFFFFF" xlink:href="#path-3"></use>
+                <path d="M42,42 L257.999847,42 C271.260641,42 282,52.7420222 282,65.9929781 L282,381.007022 C282,394.259173 271.254765,405 257.999847,405 L42,405 L42,42 Z M46.5,400.5 L257.999847,400.5 C268.770233,400.5 277.5,391.773143 277.5,381.007022 L277.5,65.9929781 C277.5,55.2254054 268.773461,46.5 257.999847,46.5 L46.5,46.5 L46.5,400.5 Z" id="border" fill-opacity="0.5" fill="#66FFF9" fill-rule="nonzero" mask="url(#mask-4)"></path>
+                <path d="M0,0 L288.003703,0 C301.260254,0 312,10.7420815 312,23.9931105 L312,423.006889 C312,436.254505 301.256492,447 288.003703,447 L0,447 L0,0 Z M4,443 L288.003703,443 C299.046205,443 308,434.046514 308,423.006889 L308,23.9931105 C308,12.9499432 299.049837,4 288.003703,4 L4,4 L4,443 Z" id="border" fill="#008CFF" fill-rule="nonzero" mask="url(#mask-4)"></path>
+            </g>
+            <g id="book" transform="translate(72.000000, 0.000000)">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <use id="background" fill="#D1EBFF" xlink:href="#path-5"></use>
+                <path d="M294,318 C274.117749,318 258,301.882251 258,282 C258,262.117749 274.117749,246 294,246 C313.882251,246 330,262.117749 330,282 C330,301.882251 313.882251,318 294,318 Z M294,303 C305.59798,303 315,293.59798 315,282 C315,270.40202 305.59798,261 294,261 C282.40202,261 273,270.40202 273,282 C273,293.59798 282.40202,303 294,303 Z" id="oval" fill-opacity="0.1" fill="#0091FF" fill-rule="nonzero" mask="url(#mask-6)"></path>
+                <g id="bottom" mask="url(#mask-6)">
+                    <g transform="translate(0.000000, 345.000000)">
+                        <path d="M0,3 L360,3 L360,146.996661 C360,160.253339 349.250371,171 335.995682,171 L0,171 L0,3 Z" id="background" fill="#FFFFFF"></path>
+                        <rect id="line" fill-opacity="0.5" fill="#95FF77" x="48" y="121.5" width="72" height="9" rx="4.5"></rect>
+                        <rect id="line" fill-opacity="0.5" fill="#95FF77" x="48" y="100.5" width="72" height="9" rx="4.5"></rect>
+                        <rect id="line" fill-opacity="0.5" fill="#66FFF9" x="48" y="61.5" width="72" height="9" rx="4.5"></rect>
+                        <rect id="line" fill-opacity="0.5" fill="#66FFF9" x="48" y="40.5" width="108" height="9" rx="4.5"></rect>
+                        <rect id="separator" fill="#008CFF" x="0" y="0" width="360" height="3"></rect>
+                    </g>
+                </g>
+                <rect id="line" fill-opacity="0.1" fill="#0091FF" mask="url(#mask-6)" x="48" y="84" width="144" height="18" rx="9"></rect>
+                <rect id="line" fill-opacity="0.1" fill="#0091FF" mask="url(#mask-6)" x="48" y="42" width="216" height="18" rx="9"></rect>
+                <path d="M0,0 L335.995682,0 C349.250371,0 360,10.7463191 360,24.0025755 L360,491.997425 C360,505.252275 349.252901,516 335.995682,516 L0,516 L0,0 Z M4,512 L335.995682,512 C347.043305,512 356,503.043593 356,491.997425 L356,24.0025755 C356,12.9564618 347.042236,4 335.995682,4 L4,4 L4,512 Z" id="border" fill="#008CFF" fill-rule="nonzero" mask="url(#mask-6)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

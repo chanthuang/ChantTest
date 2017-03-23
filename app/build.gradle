@@ -1,0 +1,59 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.chant.chanttest"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        // 与 com.android.support:support-vector-drawable 搭配使用,禁掉 Gradle 自动生成 png 的功能
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+buildscript {
+    repositories {
+        maven {
+            // 目前使用公司oa内网的maven仓库，当然也可指定checkout后源码中的maven本地目录
+            url uri('http://maven.oa.com/nexus/content/repositories/thirdparty/')
+        }
+    }
+    dependencies {
+        classpath 'com.tencent.mm:WxSVGPlugin:0.5'
+    }
+}
+
+repositories {
+    maven {
+        // 目前使用公司oa内网的maven仓库，当然也可指定checkout后源码中的maven本地目录
+        url uri('http://maven.oa.com/nexus/content/repositories/thirdparty/')
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.tencent.mm:WxSVGLibrary:0.5'
+}
+
+apply plugin: 'com.tencent.mm.WxSVG'
+WxSVG {
+    open true
+    verbose true
+//    package_name "com.chant.hellochanttest"    // 请修改这里，可选，非AndroidStudio默认工程结构的项目最好填上该项
+//    resource_path "path/to/raw/" // 请修改这里，填上raw目录相对与各个工程的相对路径，可选，非AndroidStudio默认工程结构的项目最好填上该项
+}

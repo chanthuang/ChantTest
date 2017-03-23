@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_account_bill_round</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_account_bill_round">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <ellipse id="Oval-39" fill="#EF5362" cx="36" cy="36" rx="36" ry="36"></ellipse>
+            <path d="M50.9926,27 L47.9996,27 L47.9996,26.994 L47.9996,22.006 C47.9996,20.349 46.6566,19 44.9996,19 L20.9996,19 C19.3476,19 17.9996,20.346 17.9996,22.006 L17.9996,27 L17.9996,30 L17.9996,49.992 C17.9996,51.657 19.3466,53 21.0076,53 L50.9926,53 C52.6546,53 53.9996,51.653 53.9996,49.992 L53.9996,30.008 C53.9996,28.343 52.6536,27 50.9926,27 Z M20.9996,22 L44.9996,22 L44.9996,22.006 L44.9996,27 L20.9996,27 L20.9996,22 Z M50.9926,50 L20.9996,49.992 L20.9996,30 L44.9996,30 L50.9926,30 L50.9996,30.008 L50.9926,50 Z" id="Fill-1" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

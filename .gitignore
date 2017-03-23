@@ -1,0 +1,15 @@
+*.bin
+*.iml
+.DS_Store
+.gradle
+.gradletasknamecache
+.idea
+.settings/
+build/
+.gradle/
+bin/
+gen/
+captures/
+common/
+ossviewer/
+local.properties
