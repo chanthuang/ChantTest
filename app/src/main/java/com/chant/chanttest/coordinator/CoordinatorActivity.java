@@ -12,7 +12,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.chanthuang.hellogank.R;
+import com.chant.chanttest.R;
+
 
 public class CoordinatorActivity extends Activity {
     @Override

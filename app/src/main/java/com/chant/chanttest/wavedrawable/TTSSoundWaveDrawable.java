@@ -9,7 +9,7 @@ import android.graphics.drawable.Animatable;
 import android.graphics.drawable.Drawable;
 import android.view.animation.AnimationUtils;
 
-import com.chanthuang.util.QMUIDisplayHelper;
+import com.chant.chanttest.util.QMUIDisplayHelper;
 
 public class TTSSoundWaveDrawable extends Drawable implements Animatable {
 
