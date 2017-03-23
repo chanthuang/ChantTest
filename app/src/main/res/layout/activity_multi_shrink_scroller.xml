@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chanthuang.test.multishrinkscroller.MultiShrinkScroller
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/multiscroller"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccbbaa"
+    android:descendantFocusability="afterDescendants"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/transparent_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/quickcontact_starting_empty_height"/>
+
+        <FrameLayout
+            android:id="@+id/toolbar_parent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+        </FrameLayout>
+
+        <com.chanthuang.test.multishrinkscroller.TouchlessScrollView
+            android:id="@+id/content_scroller"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/red"
+            android:fillViewport="true">
+
+            <!-- All the cards should be inserted into this LinearLayout -->
+
+            <LinearLayout
+                android:id="@+id/card_container"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+                <View android:layout_width="200dp" android:layout_height="200dp" android:background="#8033ffff" android:layout_marginBottom="30dp"/>
+                <View android:layout_width="200dp" android:layout_height="200dp" android:background="#8033f3ff" android:layout_marginBottom="30dp"/>
+                <View android:layout_width="200dp" android:layout_height="200dp" android:background="#803f3f3f" android:layout_marginBottom="30dp"/>
+                <View android:layout_width="200dp" android:layout_height="200dp" android:background="#809f3f3f" android:layout_marginBottom="30dp"/>
+                <View android:layout_width="200dp" android:layout_height="200dp" android:background="#80fd3f3f" android:layout_marginBottom="30dp"/>
+                <View android:layout_width="200dp" android:layout_height="200dp" android:background="#8000ff3f" android:layout_marginBottom="30dp"/>
+                <View android:layout_width="200dp" android:layout_height="200dp" android:background="#80f03f3f" android:layout_marginBottom="30dp"/>
+
+            </LinearLayout>
+        </com.chanthuang.test.multishrinkscroller.TouchlessScrollView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/large_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:layout_marginBottom="@dimen/quickcontact_title_initial_margin"
+        android:layout_marginEnd="@dimen/quickcontact_title_initial_margin"
+        android:layout_marginStart="@dimen/quickcontact_title_initial_margin"
+        android:ellipsize="end"
+        android:importantForAccessibility="no"
+        android:text="测试"
+        android:textAlignment="viewStart"
+        android:textColor="@color/blue_text">
+    </TextView>
+
+</com.chanthuang.test.multishrinkscroller.MultiShrinkScroller>

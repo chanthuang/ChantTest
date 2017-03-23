@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="quickcontact_starting_empty_height">280dp</dimen>
+    <dimen name="quickcontact_title_initial_margin">16dp</dimen>
+
+    <bool name="quickcontact_two_panel">false</bool>
+    <bool name="contact_all_list_show_card_frame">false</bool>
+
+    <!--<item name="quickcontact_photo_ratio" type="vals" format="float">0.7</item>-->
+    <color name="blue_text">#FF0000FF</color>
+    <color name="red">#ff0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <string name="package_number">aaaa</string>
+</resources>

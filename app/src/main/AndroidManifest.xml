@@ -21,6 +21,15 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name=".wavedrawable.DrawableActivity">
+        </activity>
+
+        <activity android:name=".coordinator.CoordinatorActivity">
+        </activity>
+
+        <activity android:name=".multishrinkscroller.MultiShrinkScrollerActivity">
+        </activity>
     </application>
 
 </manifest>
