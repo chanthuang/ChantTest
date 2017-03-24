@@ -6,9 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <View android:id="@+id/bottomView" android:layout_width="match_parent"
-          android:layout_height="400dp"
-          android:background="@color/colorPrimaryDark"
-          app:layout_behavior="@string/bottom_sheet_behavior"/>
+    <ListView
+        android:id="@+id/singleListView"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@color/colorPrimaryDark"
+        app:behavior_hideable="false"
+        app:behavior_peekHeight="50dp"
+        app:layout_behavior="@string/bottom_sheet_behavior"/>
 
 </android.support.design.widget.CoordinatorLayout>
