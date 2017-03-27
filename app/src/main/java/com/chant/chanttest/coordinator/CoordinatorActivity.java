@@ -26,7 +26,7 @@ public class CoordinatorActivity extends Activity {
                 android.R.id.text1, newList(0, 200)));
         frameLayout.addView(simpleListView, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
 
-        BottomSheetLayout baseView = new BottomSheetLayout(this);
+        BottomPanelLayout baseView = new BottomPanelLayout(this);
         frameLayout.addView(baseView, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
 
         RecyclerView panelRecyclerView = new RecyclerView(this);
@@ -42,7 +42,7 @@ public class CoordinatorActivity extends Activity {
             @Override
             public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
                 TextView textView = (TextView) holder.itemView;
-                textView.setText(String.valueOf(position));
+                textView.setText(String.valueOf(position + 100));
             }
 
             @Override

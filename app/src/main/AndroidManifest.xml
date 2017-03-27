@@ -30,6 +30,7 @@
 
         <activity android:name=".multishrinkscroller.MultiShrinkScrollerActivity">
         </activity>
+
     </application>
 
 </manifest>
