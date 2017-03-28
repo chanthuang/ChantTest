@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chant.chanttest.nestedscroll.touchevent.DragOrScrollParentView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/testListView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorPrimaryDark"/>
+
+</com.chant.chanttest.nestedscroll.touchevent.DragOrScrollParentView>
