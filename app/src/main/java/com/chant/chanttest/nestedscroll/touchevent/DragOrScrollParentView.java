@@ -1,7 +1,9 @@
 package com.chant.chanttest.nestedscroll.touchevent;
 
+import android.animation.ValueAnimator;
 import android.content.Context;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.View;
@@ -42,6 +44,14 @@ public class DragOrScrollParentView extends FrameLayout {
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         ensureChild();
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+    }
+
+    @Override
+    protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
+        super.onLayout(changed, left, top, right, bottom);
+        if (mChildMaxHeight == -1) {
+            mChildMaxHeight = bottom - top;
+        }
     }
 
     public interface DraggableChild {
@@ -96,7 +106,7 @@ public class DragOrScrollParentView extends FrameLayout {
     private void drag(MotionEvent event) {
         float dy = event.getY() - mLastY;
         int newChildHeight = (int) (mChildView.getHeight() - dy);
-        setChildHeight(newChildHeight);
+        setChildHeight(newChildHeight, false);
         if (dy < 0) {
             // 往上
         } else {
@@ -105,14 +115,11 @@ public class DragOrScrollParentView extends FrameLayout {
         mLastY = event.getY();
     }
 
-    private void setChildHeight(int height) {
-        height = Math.max(height, mDraggableChild.dragMinHeight());
-        if (mChildMaxHeight == -1) {
-            // MATCH_PARENT
-            height = Math.min(height, this.getHeight());
-        } else {
-            height = Math.min(height, mChildMaxHeight);
+    private void setChildHeight(int height, boolean limitMinHeight) {
+        if (limitMinHeight) {
+            height = Math.max(height, mDraggableChild.dragMinHeight());
         }
+        height = Math.min(height, mChildMaxHeight);
         mChildView.getLayoutParams().height = height;
         mChildView.setLayoutParams(mChildView.getLayoutParams());
     }
@@ -126,6 +133,25 @@ public class DragOrScrollParentView extends FrameLayout {
             mVelocityTracker.computeCurrentVelocity(1000,
                     ViewConfiguration.get(getContext()).getScaledMaximumFlingVelocity());
             float vy = mVelocityTracker.getYVelocity();
+            int targetHeight;
+            if (Math.abs(vy) >= ViewConfiguration.get(getContext()).getScaledMinimumFlingVelocity()) {
+                // 达到速度,可以按照速度的方向决定滑动的目标位置
+                targetHeight = vy < 0 ? mChildMaxHeight : mDraggableChild.dragMinHeight();
+            } else {
+                // 根据当前位置决定目标位置
+                targetHeight = mLastY - mDownY < 0 ? mChildMaxHeight : mDraggableChild.dragMinHeight();
+            }
+
+            ValueAnimator animator = ValueAnimator.ofInt(mChildView.getHeight(), targetHeight);
+            animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
+                @Override
+                public void onAnimationUpdate(ValueAnimator animation) {
+                    int val = (Integer) animation.getAnimatedValue();
+                    setChildHeight(val, true);
+                }
+            });
+            animator.setDuration(200);
+            animator.start();
         }
     }
 
