@@ -1,18 +1,18 @@
 package com.chant.chanttest.nestedscroll.touchevent;
 
 import android.content.Context;
-import android.graphics.Rect;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.View;
 import android.view.ViewConfiguration;
-import android.view.ViewGroup;
-import android.widget.Scroller;
+import android.widget.FrameLayout;
 
-public class DragOrScrollParentView extends ViewGroup {
+public class DragOrScrollParentView extends FrameLayout {
 
     private View mChildView;
+    private DraggableChild mDraggableChild;
+    private int mChildMaxHeight = -1; // -1表示最大是MATCH_PARENT
 
     public DragOrScrollParentView(Context context) {
         super(context);
@@ -29,19 +29,25 @@ public class DragOrScrollParentView extends ViewGroup {
     private void ensureChild() {
         if (mChildView == null) {
             mChildView = getChildAt(0);
+            if (mChildView instanceof DraggableChild) {
+                mDraggableChild = (DraggableChild) mChildView;
+            }
+            if (mChildView == null || mDraggableChild == null) {
+                throw new RuntimeException("没有子View或子View没有实现DraggableChild接口");
+            }
         }
     }
 
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         ensureChild();
-        measureChild(mChildView, widthMeasureSpec, heightMeasureSpec);
+        super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
 
-    @Override
-    protected void onLayout(boolean changed, int l, int t, int r, int b) {
-        mChildView.layout(0, b - mChildView.getMeasuredHeight(), mChildView.getMeasuredWidth(), b);
+    public interface DraggableChild {
+        boolean isDraggable(int x, int y);
+
+        int dragMinHeight();
     }
 
     private float mDownY;
@@ -54,9 +60,7 @@ public class DragOrScrollParentView extends ViewGroup {
             case MotionEvent.ACTION_DOWN:
                 mDownY = ev.getY();
                 mLastY = ev.getY();
-                mIsDragging = !isEventInsideChild(ev);
-                // 防止滚动过程中又触发新的滚动，会前后冲突
-                mScroller.forceFinished(true);
+                mIsDragging = mDraggableChild.isDraggable((int) ev.getX() - mChildView.getLeft(), (int) ev.getY() - mChildView.getTop());
                 break;
             case MotionEvent.ACTION_MOVE:
                 break;
@@ -65,13 +69,6 @@ public class DragOrScrollParentView extends ViewGroup {
         }
 //        return super.onInterceptTouchEvent(ev);
         return mIsDragging;
-    }
-
-    private boolean isEventInsideChild(MotionEvent ev) {
-        Rect childRect = new Rect();
-        childRect.set(0, 0, mChildView.getWidth(), mChildView.getHeight());
-        this.offsetDescendantRectToMyCoords(mChildView, childRect);
-        return childRect.contains((int) ev.getX(), (int) ev.getY());
     }
 
     @Override
@@ -98,21 +95,26 @@ public class DragOrScrollParentView extends ViewGroup {
 
     private void drag(MotionEvent event) {
         float dy = event.getY() - mLastY;
+        int newChildHeight = (int) (mChildView.getHeight() - dy);
+        setChildHeight(newChildHeight);
         if (dy < 0) {
             // 往上
-            setChildHeight((int) (mChildView.getHeight() - dy));
         } else {
             // 往下
-            setChildHeight((int) (mChildView.getHeight() - dy));
         }
         mLastY = event.getY();
     }
 
     private void setChildHeight(int height) {
-        if (height >= 0) {
-            mChildView.getLayoutParams().height = height;
-            mChildView.setLayoutParams(mChildView.getLayoutParams());
+        height = Math.max(height, mDraggableChild.dragMinHeight());
+        if (mChildMaxHeight == -1) {
+            // MATCH_PARENT
+            height = Math.min(height, this.getHeight());
+        } else {
+            height = Math.min(height, mChildMaxHeight);
         }
+        mChildView.getLayoutParams().height = height;
+        mChildView.setLayoutParams(mChildView.getLayoutParams());
     }
 
     private void stopDrag() {
@@ -124,7 +126,6 @@ public class DragOrScrollParentView extends ViewGroup {
             mVelocityTracker.computeCurrentVelocity(1000,
                     ViewConfiguration.get(getContext()).getScaledMaximumFlingVelocity());
             float vy = mVelocityTracker.getYVelocity();
-            mScroller.fling(0, mChildView.getTop(), 0, (int) vy, 0, 0, 0, this.getHeight());
         }
     }
 
@@ -145,15 +146,4 @@ public class DragOrScrollParentView extends ViewGroup {
         }
     }
 
-    private Scroller mScroller = new Scroller(getContext());
-
-    @Override
-    public void computeScroll() {
-        if (mScroller.computeScrollOffset()) {
-            int currentY = mScroller.getCurrY();
-            int childHeight = getHeight() - currentY;
-            setChildHeight(childHeight);
-            invalidate();
-        }
-    }
 }
