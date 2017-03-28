@@ -3,7 +3,6 @@ package com.chant.chanttest.nestedscroll.touchevent;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
 import android.view.View;
@@ -107,11 +106,6 @@ public class DragOrScrollParentView extends FrameLayout {
         float dy = event.getY() - mLastY;
         int newChildHeight = (int) (mChildView.getHeight() - dy);
         setChildHeight(newChildHeight, false);
-        if (dy < 0) {
-            // 往上
-        } else {
-            // 往下
-        }
         mLastY = event.getY();
     }
 
