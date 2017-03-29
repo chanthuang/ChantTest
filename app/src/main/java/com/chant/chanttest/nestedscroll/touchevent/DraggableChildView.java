@@ -35,4 +35,9 @@ public class DraggableChildView extends LinearLayout implements DragOrScrollPare
     public int dragMinHeight() {
         return QMUIDisplayHelper.dpToPx(152);
     }
+
+    @Override
+    public int dragMaxHeight() {
+        return -1;
+    }
 }

@@ -13,7 +13,6 @@ public class DragOrScrollParentView extends FrameLayout {
 
     private View mChildView;
     private DraggableChild mDraggableChild;
-    private int mChildMaxHeight = -1; // -1表示最大是MATCH_PARENT
 
     public DragOrScrollParentView(Context context) {
         super(context);
@@ -28,13 +27,16 @@ public class DragOrScrollParentView extends FrameLayout {
     }
 
     private void ensureChild() {
+        if (getChildCount() == 0) {
+            return;
+        }
         if (mChildView == null) {
             mChildView = getChildAt(0);
             if (mChildView instanceof DraggableChild) {
                 mDraggableChild = (DraggableChild) mChildView;
             }
-            if (mChildView == null || mDraggableChild == null) {
-                throw new RuntimeException("没有子View或子View没有实现DraggableChild接口");
+            if (mChildView != null && mDraggableChild == null) {
+                throw new RuntimeException("子View没有实现DraggableChild接口");
             }
         }
     }
@@ -48,15 +50,17 @@ public class DragOrScrollParentView extends FrameLayout {
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         super.onLayout(changed, left, top, right, bottom);
-        if (mChildMaxHeight == -1) {
-            mChildMaxHeight = bottom - top;
-        }
     }
 
     public interface DraggableChild {
         boolean isDraggable(int x, int y);
 
         int dragMinHeight();
+
+        /**
+         * 返回-1代表 MATCH_PARENT
+         */
+        int dragMaxHeight();
     }
 
     private float mDownY;
@@ -65,6 +69,9 @@ public class DragOrScrollParentView extends FrameLayout {
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
+        if (mChildView == null || mDraggableChild == null) {
+            return super.onInterceptTouchEvent(ev);
+        }
         switch (ev.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 mDownY = ev.getY();
@@ -76,12 +83,14 @@ public class DragOrScrollParentView extends FrameLayout {
             case MotionEvent.ACTION_UP:
                 break;
         }
-//        return super.onInterceptTouchEvent(ev);
         return mIsDragging;
     }
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
+        if (mChildView == null || mDraggableChild == null) {
+            return super.onTouchEvent(event);
+        }
         acquireVelocityTracker(event);
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
@@ -113,9 +122,20 @@ public class DragOrScrollParentView extends FrameLayout {
         if (limitMinHeight) {
             height = Math.max(height, mDraggableChild.dragMinHeight());
         }
-        height = Math.min(height, mChildMaxHeight);
+        height = Math.min(height, getChildMaxHeight());
         mChildView.getLayoutParams().height = height;
         mChildView.setLayoutParams(mChildView.getLayoutParams());
+    }
+
+    private int getChildMaxHeight() {
+        if (mDraggableChild != null) {
+            if (mDraggableChild.dragMaxHeight() < 0) {
+                return this.getHeight();
+            } else {
+                return mDraggableChild.dragMaxHeight();
+            }
+        }
+        return 0;
     }
 
     private void stopDrag() {
@@ -130,10 +150,10 @@ public class DragOrScrollParentView extends FrameLayout {
             int targetHeight;
             if (Math.abs(vy) >= ViewConfiguration.get(getContext()).getScaledMinimumFlingVelocity()) {
                 // 达到速度,可以按照速度的方向决定滑动的目标位置
-                targetHeight = vy < 0 ? mChildMaxHeight : mDraggableChild.dragMinHeight();
+                targetHeight = vy < 0 ? getChildMaxHeight() : mDraggableChild.dragMinHeight();
             } else {
                 // 根据当前位置决定目标位置
-                targetHeight = mLastY - mDownY < 0 ? mChildMaxHeight : mDraggableChild.dragMinHeight();
+                targetHeight = mLastY - mDownY < 0 ? getChildMaxHeight() : mDraggableChild.dragMinHeight();
             }
 
             ValueAnimator animator = ValueAnimator.ofInt(mChildView.getHeight(), targetHeight);
