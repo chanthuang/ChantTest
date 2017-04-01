@@ -1,22 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.chant.chanttest.nestedscroll.touchevent.DragOrScrollParentView
+<com.chant.chanttest.nestedscroll.touchevent.DraggableParentView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#40000000">
 
     <com.chant.chanttest.nestedscroll.touchevent.DraggableChildView
+        android:id="@+id/childView"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="300dp"
         android:layout_gravity="bottom"
+        android:background="?android:attr/colorBackground"
         android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/app_name"/>
 
         <ListView
             android:id="@+id/testListView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="?android:attr/colorBackground"/>
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
 
     </com.chant.chanttest.nestedscroll.touchevent.DraggableChildView>
 
-</com.chant.chanttest.nestedscroll.touchevent.DragOrScrollParentView>
+</com.chant.chanttest.nestedscroll.touchevent.DraggableParentView>
