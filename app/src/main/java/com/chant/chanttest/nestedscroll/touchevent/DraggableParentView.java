@@ -40,6 +40,8 @@ public class DraggableParentView extends FrameLayout {
         void onStateSettling(@State int currentState, @State int toState);
     }
 
+    private int mTouchSlop;
+
     public static final int STATE_DRAGGING = 1;
     public static final int STATE_EXPANDED = 2;
     public static final int STATE_SETTLING = 3;
@@ -56,6 +58,7 @@ public class DraggableParentView extends FrameLayout {
     private int mPeekHeight = 0;
     private float mDownY;
     private float mLastY;
+    private boolean mIsDownEventInDraggableArea = false;
     private boolean mIsDragging = false;
 
     private View mChildView;
@@ -65,14 +68,21 @@ public class DraggableParentView extends FrameLayout {
 
     public DraggableParentView(Context context) {
         super(context);
+        init();
     }
 
     public DraggableParentView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        init();
     }
 
     public DraggableParentView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        init();
+    }
+
+    private void init() {
+        mTouchSlop = ViewConfiguration.get(getContext()).getScaledTouchSlop();
     }
 
     private void ensureChild() {
@@ -108,16 +118,32 @@ public class DraggableParentView extends FrameLayout {
         }
         switch (ev.getAction()) {
             case MotionEvent.ACTION_DOWN:
+                // 重置状态 && 记录值
+                mIsDragging = false;
                 mDownY = ev.getY();
                 mLastY = ev.getY();
-                mIsDragging = mDraggableChild.isPointDraggable((int) ev.getX() - mChildView.getLeft(), (int) ev.getY() - mChildView.getTop());
+                // 按下时记录是否处于可拖动区域
+                mIsDownEventInDraggableArea = mDraggableChild.isPointDraggable(
+                        (int) ev.getX() - mChildView.getLeft(),
+                        (int) ev.getY() - mChildView.getTop());
                 break;
             case MotionEvent.ACTION_MOVE:
+                mLastY = ev.getY();
+                mIsDragging = motionShouldStartDrag(ev);
                 break;
             case MotionEvent.ACTION_UP:
+            case MotionEvent.ACTION_CANCEL:
                 break;
         }
         return mIsDragging;
+    }
+
+    private boolean motionShouldStartDrag(MotionEvent event) {
+        if (!mIsDownEventInDraggableArea) {
+            return false;
+        }
+        final float deltaY = event.getY() - mDownY;
+        return deltaY > mTouchSlop || deltaY < -mTouchSlop;
     }
 
     @Override
@@ -130,7 +156,9 @@ public class DraggableParentView extends FrameLayout {
             case MotionEvent.ACTION_DOWN:
                 break;
             case MotionEvent.ACTION_MOVE:
-                drag(event);
+                if (mIsDragging) {
+                    drag(event);
+                }
                 break;
             case MotionEvent.ACTION_UP:
                 flingIfDragging();
@@ -143,6 +171,14 @@ public class DraggableParentView extends FrameLayout {
                 break;
         }
         return mIsDragging;
+    }
+
+    private void drag(MotionEvent event) {
+        float dy = event.getY() - mLastY;
+        int newChildHeight = (int) (mChildView.getHeight() - dy);
+        setChildHeight(newChildHeight);
+        mLastY = event.getY();
+        setStateInternal(STATE_DRAGGING);
     }
 
     public void setPeekHeight(int peekHeight) {
@@ -166,14 +202,6 @@ public class DraggableParentView extends FrameLayout {
             mChildMaxHeight = getHeight();
         }
         return mChildMaxHeight;
-    }
-
-    private void drag(MotionEvent event) {
-        float dy = event.getY() - mLastY;
-        int newChildHeight = (int) (mChildView.getHeight() - dy);
-        setChildHeight(newChildHeight);
-        mLastY = event.getY();
-        setStateInternal(STATE_DRAGGING);
     }
 
     private void setChildHeight(int height) {
