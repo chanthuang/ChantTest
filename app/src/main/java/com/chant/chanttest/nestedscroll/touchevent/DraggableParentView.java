@@ -58,8 +58,8 @@ public class DraggableParentView extends FrameLayout {
     private int mPeekHeight = 0;
     private float mDownY;
     private float mLastY;
-    private boolean mIsDownEventInDraggableArea = false;
     private boolean mIsDragging = false;
+    private boolean mIsDownInDraggableArea = false;
 
     private View mChildView;
     private DraggableChild mDraggableChild;
@@ -123,7 +123,7 @@ public class DraggableParentView extends FrameLayout {
                 mDownY = ev.getY();
                 mLastY = ev.getY();
                 // 按下时记录是否处于可拖动区域
-                mIsDownEventInDraggableArea = mDraggableChild.isPointDraggable(
+                mIsDownInDraggableArea = mDraggableChild.isPointDraggable(
                         (int) ev.getX() - mChildView.getLeft(),
                         (int) ev.getY() - mChildView.getTop());
                 break;
@@ -139,7 +139,7 @@ public class DraggableParentView extends FrameLayout {
     }
 
     private boolean motionShouldStartDrag(MotionEvent event) {
-        if (!mIsDownEventInDraggableArea) {
+        if (!mIsDownInDraggableArea) {
             return false;
         }
         final float deltaY = event.getY() - mDownY;
