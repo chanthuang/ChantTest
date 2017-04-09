@@ -67,7 +67,7 @@ function makeSVGLayoutFile() {
     allSVGFiles.forEach(function (svgFile, index, array) {
         if (svgFile.endsWith('.svg')) {
             imageStrArray.push(
-                '<com.chant.chanttest.svg.SVGImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@raw/$resName$"/>'
+                '<com.chant.chanttest.svg.SVGImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:svgSrc="@raw/$resName$"/>'
                     .replace('$resName$', svgFile.slice(0, -4))
             );
         }
@@ -95,7 +95,28 @@ function makeVDLayoutFile() {
     fs.appendFile(dstLayoutFile, str.replace('$CONTENT$', imageStrArray.join('\n')));
 }
 
+/**
+ * 根据 drawable-xxhdpi 下的文件生成 png layout 文件
+ */
+function makePNGLayoutFile() {
+    var dstLayoutFile = RES_DIR + 'layout/activity_png_icon.xml'
+    fs.writeFile(dstLayoutFile, "");
+    var str = layoutContent();
+    var imageStrArray = [];
+    var allPNGFiles = fs.readdirSync(RES_DIR + 'drawable-xxhdpi/');
+    allPNGFiles.forEach(function (pngFile, index, array) {
+        if (pngFile.endsWith('.png')) {
+            imageStrArray.push(
+                '<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/$resName$"/>'
+                    .replace('$resName$', pngFile.slice(0, -4))
+            );
+        }
+    });
+    fs.appendFile(dstLayoutFile, str.replace('$CONTENT$', imageStrArray.join('\n')));
+}
+
 // copyVectorDrawableFiles();
 // makeSVGLayoutFile();
 // makeVDLayoutFile();
+// makePNGLayoutFile();
 

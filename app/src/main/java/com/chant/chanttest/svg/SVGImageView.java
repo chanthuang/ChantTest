@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.ImageView;
 
 import com.chant.chanttest.R;
@@ -22,10 +23,14 @@ public class SVGImageView extends ImageView {
     public SVGImageView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.SVGImageView, 0, 0);
-        int resId = typedArray.getResourceId(R.styleable.SVGImageView_android_src, 0);
+        int resId = typedArray.getResourceId(R.styleable.SVGImageView_svgSrc, 0);
         if (resId > 0) {
-            Drawable d = SVGCompat.getSVGDrawable(getResources(), resId);
-            setImageDrawable(d);
+            try {
+                Drawable d = SVGCompat.getSVGDrawable(getResources(), resId);
+                setImageDrawable(d);
+            } catch (Exception e) {
+                Log.e("chant", e.getMessage());
+            }
         }
         typedArray.recycle();
     }

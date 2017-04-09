@@ -2,8 +2,8 @@ package com.chant.chanttest.svg;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.os.Debug;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.LinearLayout;
 
 public class TraceLinearLayout extends LinearLayout {
@@ -22,8 +22,9 @@ public class TraceLinearLayout extends LinearLayout {
 
     @Override
     protected void dispatchDraw(Canvas canvas) {
-//        Debug.startMethodTracing("chanttest");
+        long st = System.currentTimeMillis();
         super.dispatchDraw(canvas);
-//        Debug.stopMethodTracing();
+        long et = System.currentTimeMillis();
+        Log.i("chant", getTag().toString() + " draw time = " + (et - st));
     }
 }

@@ -16,8 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".svg.IconVectorActivity"/>
         <activity android:name=".svg.IconSVGActivity"/>
+        <activity android:name=".svg.IconVectorActivity"/>
+        <activity android:name=".svg.IconPNGActivity"/>
 
         <activity android:name=".transition.ActivityA"/>
         <activity android:name=".transition.ActivityB"/>
@@ -34,10 +35,6 @@
         </activity>
 
         <activity android:name=".nestedscroll.touchevent.TouchEventActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
     </application>
 
