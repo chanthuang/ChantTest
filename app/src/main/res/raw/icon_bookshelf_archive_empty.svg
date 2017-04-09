@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="93px" viewBox="0 0 69 93" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_bookshelf_archive_empty</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_bookshelf_archive_empty">
+            <g id="icon_group_empty">
+                <rect id="icon" x="0" y="0" width="69" height="93"></rect>
+                <path d="M60,9 L60,93 L0,93 L0,9 L60,9 Z M3,12 L57,12 L57,90 L3,90 L3,12 Z" id="Combined-Shape" fill="#D8DCE4" opacity="0.75233209"></path>
+                <polygon id="Combined-Shape" fill="#D8DCE4" opacity="0.75" points="69 81 69 0 12 0 12 3 66 3 66 81"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

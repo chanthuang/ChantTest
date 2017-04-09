@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_home_tab_timeline_selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon_bar" sketch:type="MSArtboardGroup" transform="translate(-1644.000000, -60.000000)" fill="#1B88EE">
+            <g id="icon_home_tab_timeline_selected" sketch:type="MSLayerGroup" transform="translate(1644.000000, 60.000000)">
+                <path d="M2,11.0083618 C2,7.69003521 4.68370468,5 8.00259267,5 L64.9974073,5 C68.3125477,5 71,7.68672481 71,11.0083618 L71,47.9916382 C71,51.3099648 68.3112985,54 65.001155,54 L41,54 L25.9120165,68.2497622 C24.3037542,69.7686766 23,69.212833 23,66.9927643 L23,54 L8.00370086,54 C4.68794843,54 2,51.3132752 2,47.9916382 L2,11.0083618 Z M18,34.0093689 C18,33.4519098 18.4413032,33 19.0088498,33 L53.9911502,33 C54.5483226,33 55,33.4433532 55,34.0093689 L55,35.9906311 C55,36.5480902 54.5586968,37 53.9911502,37 L19.0088498,37 C18.4516774,37 18,36.5566468 18,35.9906311 L18,34.0093689 Z M18,22.0093689 C18,21.4519098 18.4413032,21 19.0088498,21 L53.9911502,21 C54.5483226,21 55,21.4433532 55,22.0093689 L55,23.9906311 C55,24.5480902 54.5586968,25 53.9911502,25 L19.0088498,25 C18.4516774,25 18,24.5566468 18,23.9906311 L18,22.0093689 Z" id="Rectangle-30" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

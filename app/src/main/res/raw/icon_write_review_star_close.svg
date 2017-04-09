@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_write_review_star_close</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_write_review_star_close">
+            <rect id="icon" x="0" y="0" width="48" height="48"></rect>
+            <path d="M6.1148556,30.4084657 L24.4678424,14.8790153 C24.1702978,15.1307839 23.8299053,15.1309557 23.5321576,14.8790153 L41.8851444,30.4084657 C42.9391609,31.3003258 44.5166056,31.1688721 45.4084657,30.1148556 C46.3003258,29.0608391 46.1688721,27.4833944 45.1148556,26.5915343 L26.7618688,11.0620839 C25.1945719,9.73590958 22.8040015,9.73711675 21.2381312,11.0620839 L2.8851444,26.5915343 C1.83112789,27.4833944 1.69967416,29.0608391 2.59153429,30.1148556 C3.48339441,31.1688721 5.06083909,31.3003258 6.1148556,30.4084657 L6.1148556,30.4084657 Z" id="Line" fill="#C4C8D0"></path>
+        </g>
+    </g>
+</svg>

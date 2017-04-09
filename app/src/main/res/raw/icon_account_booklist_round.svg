@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_account_booklist_round</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_account_booklist_round">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <ellipse id="Oval-39" fill="#5A9AEF" cx="36" cy="36" rx="36" ry="36"></ellipse>
+            <path d="M22.0013575,18 L48.9986425,18 C50.6562465,18 52,19.3455393 52,21.0074199 L52,50.9925801 C52,52.6535323 50.6654891,54 48.9986425,54 L22.0013575,54 C20.3437535,54 19,52.6544607 19,50.9925801 L19,21.0074199 C19,19.3464677 20.3345109,18 22.0013575,18 Z M22,50.9925801 C22,50.9984965 48.9986425,51 48.9986425,51 C49.0026512,51 49,21.0074199 49,21.0074199 C49,21.0015035 22.0013575,21 22.0013575,21 C21.9973488,21 22,50.9925801 22,50.9925801 Z" id="Rectangle" fill="#FFFFFF"></path>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="32" y="42" width="12" height="3"></rect>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="26" y="42" width="3" height="3"></rect>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="32" y="35" width="12" height="3"></rect>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="26" y="35" width="3" height="3"></rect>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="32" y="28" width="12" height="3"></rect>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="26" y="28" width="3" height="3"></rect>
+        </g>
+    </g>
+</svg>

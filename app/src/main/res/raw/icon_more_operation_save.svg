@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_more_operation_save</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_more_operation_save">
+            <rect id="icon" x="0" y="0" width="168" height="168"></rect>
+            <rect id="background" fill="#0985F1" x="0" y="0" width="168" height="168" rx="36"></rect>
+            <rect id="Rectangle-661" fill="#FFFFFF" x="81" y="42" width="6" height="66" rx="3"></rect>
+            <path d="M51.8786797,78.6213203 L81.8786797,108.62132 L84,110.742641 L86.1213203,108.62132 L116.12132,78.6213203 C117.292893,77.4497475 117.292893,75.5502525 116.12132,74.3786797 C114.949747,73.2071068 113.050253,73.2071068 111.87868,74.3786797 L81.8786797,104.37868 L86.1213203,104.37868 L56.1213203,74.3786797 C54.9497475,73.2071068 53.0502525,73.2071068 51.8786797,74.3786797 C50.7071068,75.5502525 50.7071068,77.4497475 51.8786797,78.6213203 L51.8786797,78.6213203 Z" id="Line" fill="#FFFFFF"></path>
+            <path d="M54.0000001,120 C54,118.343146 55.3367682,117 56.9947245,117 L110.980986,117 C112.634927,117 113.982994,118.346517 113.991938,120 L113.991938,120 C114.0009,121.656854 112.670674,123 111.01182,123 L56.9963455,123 C55.3415098,123 54.0000003,121.653483 54.0000001,120 L54.0000001,120 Z" id="Rectangle-664" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

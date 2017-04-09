@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="37px" height="24px" viewBox="0 0 37 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_deploy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_deploy" transform="translate(1.000000, 0.000000)">
+            <rect id="icon" transform="translate(18.000000, 12.000000) rotate(-270.000000) translate(-18.000000, -12.000000) " x="6" y="-6" width="24" height="36"></rect>
+            <path d="M16.4090097,19.5909903 L18,21.1819805 L19.5909903,19.5909903 L31.5909903,7.59099026 C32.4696699,6.7123106 32.4696699,5.2876894 31.5909903,4.40900974 C30.7123106,3.53033009 29.2876894,3.53033009 28.4090097,4.40900974 L18,14.4090097 L7.59099026,4.40900974 C6.7123106,3.53033009 5.2876894,3.53033009 4.40900974,4.40900974 C3.53033009,5.2876894 3.53033009,6.7123106 4.40900974,7.59099026 L16.4090097,19.5909903 Z" id="Line" fill="#ADB4BE"></path>
+        </g>
+    </g>
+</svg>

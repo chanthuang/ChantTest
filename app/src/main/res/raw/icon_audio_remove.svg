@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="27px" height="27px" viewBox="0 0 27 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_audio_remove</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="语音赠言_VoiceGift" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1.2_bookDetail_gift_purchased" transform="translate(-938.000000, -1440.000000)">
+            <g id="giftWord" transform="translate(72.000000, 1015.000000)">
+                <g id="bottom" transform="translate(0.000000, 366.000000)">
+                    <g id="icon_audio_remove" transform="translate(864.000000, 57.000000)">
+                        <rect id="icon" x="0" y="0" width="30" height="30"></rect>
+                        <path d="M15.2255958,13.1102691 L4.61973082,2.50440417 C4.03294666,1.91762001 3.08346015,1.91788097 2.49767371,2.50366741 C1.90780327,3.09353784 1.91221713,4.03953117 2.49841048,4.62572452 L13.1042754,15.2315895 L2.49841048,25.8374544 C1.91221713,26.4236478 1.90780327,27.3696411 2.49767371,27.9595115 C3.08346015,28.545298 4.03294666,28.5455589 4.61973082,27.9587748 L15.2255958,17.3529098 L25.8314607,27.9587748 C26.4182449,28.5455589 27.3677314,28.545298 27.9535178,27.9595115 C28.5433883,27.3696411 28.5389744,26.4236478 27.9527811,25.8374544 L17.3469161,15.2315895 L27.9527811,4.62572452 C28.5389744,4.03953117 28.5433883,3.09353784 27.9535178,2.50366741 C27.3677314,1.91788097 26.4182449,1.91762001 25.8314607,2.50440417 L15.2255958,13.1102691 Z" id="Combined-Shape" fill="#36AFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_style_back</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_style_back">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <rect id="Rectangle-457" fill="#858C96" x="8" y="34" width="58" height="4" rx="2"></rect>
+            <path d="M30.5857864,10.5857864 L7.29106324,33.8805096 C6.1206802,35.0508927 6.12566243,36.9540896 7.29106324,38.1194904 L30.5857864,61.4142136 C31.366835,62.1952621 32.633165,62.1952621 33.4142136,61.4142136 C34.1952621,60.633165 34.1952621,59.366835 33.4142136,58.5857864 L10.1194904,35.2910632 C10.5128813,35.6844542 10.5145291,36.313898 10.1194904,36.7089368 L33.4142136,13.4142136 C34.1952621,12.633165 34.1952621,11.366835 33.4142136,10.5857864 C32.633165,9.80473785 31.366835,9.80473785 30.5857864,10.5857864 L30.5857864,10.5857864 Z" id="Line" fill="#858C96"></path>
+        </g>
+    </g>
+</svg>

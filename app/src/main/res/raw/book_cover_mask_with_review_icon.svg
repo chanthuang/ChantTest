@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="120px" height="171px" viewBox="0 0 120 171" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>book_cover_mask_with_review_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="6.123234e-15%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#32B2FF" offset="0%"></stop>
+            <stop stop-color="#2D9FFE" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="120" height="171"></rect>
+    </defs>
+    <g id="slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="other" transform="translate(-1954.000000, -60.000000)">
+            <g id="Group" transform="translate(1954.000000, 60.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="bookMask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <rect id="area" mask="url(#mask-3)" x="24" y="50" width="72" height="72"></rect>
+                <path d="M54.5736229,72.8 C44.989855,82.4 41.395942,98 39,107.6 C39,110 40.197971,110 40.197971,110 L42.593913,106.4 C42.593913,106.4 44.989855,102.8 47.385797,100.4 C49.781739,98 49.781739,99.2 53.3756519,98 C67.7513039,96.8 74.7080667,79.3400353 74.7080667,79.3400353 C74.8356794,79.041782 74.6827872,78.8552535 74.354049,78.9138642 C74.354049,78.9138642 72.5431879,79.4 70.1472459,78.8 C72.5431879,76.4 77.1949494,75.5275518 77.3350718,75.2 C80.9289848,66.7988281 82.2796747,64.1674065 82.2796747,64.1674065 C82.8569515,62.9703809 82.2441764,62 80.9312593,62 L78.5330428,62 C73.7411588,62 64.1573909,63.1988 54.5736229,72.8 Z" id="Imported-Layers" fill="#FFFFFF" mask="url(#mask-3)"></path>
+                <rect id="bookcover_mask_80w" fill-opacity="0" fill="#FFFFFF" x="0" y="0" width="120" height="171"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="72px" viewBox="0 0 36 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_reader_progress_previous_dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_reader_progress_previous_dark">
+            <rect id="icon" x="0" y="0" width="36" height="72"></rect>
+            <path d="M8.70460454,35.8762804 L32.1639544,59.3356303 C32.9454477,60.1171236 32.9512536,61.3783688 32.1647597,62.1648627 C31.3837111,62.9459112 30.1227443,62.9512744 29.3355272,62.1640574 L4.58840047,37.4169306 C4.16505643,36.9935866 3.96933905,36.4294586 4.00388912,35.8762804 C3.96933905,35.3231022 4.16505643,34.7589743 4.58840047,34.3356303 L29.3355272,9.58850348 C30.1227443,8.80128647 31.3837111,8.80664961 32.1647597,9.5876982 C32.9512536,10.3741921 32.9454477,11.6354373 32.1639544,12.4169306 L8.70460454,35.8762804 Z" id="Rectangle-457" fill="#1B88EE"></path>
+        </g>
+    </g>
+</svg>

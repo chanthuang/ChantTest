@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_review_collect_round</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_review_collect_round">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <circle id="Oval-252" fill="#FFAF25" cx="36" cy="36" r="30"></circle>
+            <path d="M50,29.812323 L50,43.1980965 C50,44.0253371 49.4094589,45.0164993 48.6860051,45.4091968 L38.3539949,51.0175086 C38.2454063,51.0764515 38.1263867,51.1269565 38,51.1689819 L38,36.5333333 L38,35.973189 L50,29.812323 Z M49.1471724,26.9363194 C49.0036811,26.7970815 48.8482783,26.6791708 48.6860051,26.5910874 L38.3539949,20.9827756 C37.6305411,20.5900781 36.4372794,20.5715229 35.6937858,20.944054 L24.3462142,26.6298091 C24.0512802,26.7775872 23.7783551,27.0200245 23.5564453,27.3104304 L36,33.9266238 L49.1471724,26.9363194 Z M23,30.3257285 L23,43.1980965 C23,44.0248328 23.6027206,44.9979441 24.3462142,45.3704752 L35,50.7086056 L35,36.5333333 L35,36.4865945 L23,30.3257285 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

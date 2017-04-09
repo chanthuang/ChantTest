@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="72px" viewBox="0 0 24 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_reader_top_more</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon_reading" sketch:type="MSArtboardGroup" transform="translate(-720.000000, -60.000000)" fill="#1B88EE">
+            <g id="icon_reader_top_more" sketch:type="MSLayerGroup" transform="translate(720.000000, 60.000000)">
+                <path d="M12,58 L12,58 C13.1045695,58 14,57.1045695 14,56 C14,54.8954305 13.1045695,54 12,54 C10.8954305,54 10,54.8954305 10,56 C10,57.1045695 10.8954305,58 12,58 L12,58 Z M12,62 C8.6862915,62 6,59.3137085 6,56 C6,52.6862915 8.6862915,50 12,50 C15.3137085,50 18,52.6862915 18,56 C18,59.3137085 15.3137085,62 12,62 Z M12,38 C13.1045695,38 14,37.1045695 14,36 C14,34.8954305 13.1045695,34 12,34 C10.8954305,34 10,34.8954305 10,36 C10,37.1045695 10.8954305,38 12,38 Z M12,42 C8.6862915,42 6,39.3137085 6,36 C6,32.6862915 8.6862915,30 12,30 C15.3137085,30 18,32.6862915 18,36 C18,39.3137085 15.3137085,42 12,42 Z M12,18 C13.1045695,18 14,17.1045695 14,16 C14,14.8954305 13.1045695,14 12,14 C10.8954305,14 10,14.8954305 10,16 C10,17.1045695 10.8954305,18 12,18 Z M12,22 L12,22 C8.6862915,22 6,19.3137085 6,16 C6,12.6862915 8.6862915,10 12,10 C15.3137085,10 18,12.6862915 18,16 C18,19.3137085 15.3137085,22 12,22 L12,22 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

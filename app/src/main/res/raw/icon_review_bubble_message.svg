@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_review_bubble_message</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_general" transform="translate(-972.000000, -60.000000)">
+            <g id="icon_review_bubble_message" transform="translate(972.000000, 60.000000)">
+                <rect id="icon72*72" x="0" y="0" width="72" height="72"></rect>
+                <path d="M12,23.0082804 C12,19.6899988 14.6835413,17 18.0063866,17 L53.9936134,17 C57.3108491,17 60,19.6806279 60,23.0082804 L60,49.9917196 C60,53.3100012 57.3164587,56 53.9936134,56 L18.0063866,56 C14.6891509,56 12,53.3193721 12,49.9917196 L12,23.0082804 Z M15,27.5 L36,35 L57,27.5 L36,39.5 L15,27.5 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

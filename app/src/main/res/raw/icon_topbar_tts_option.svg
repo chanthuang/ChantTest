@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_topbar_tts_option</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_topbar_tts_option">
+            <g id="Group-2" transform="translate(9.000000, 17.000000)">
+                <rect id="Rectangle-6" fill="#1B88EE" x="0" y="29" width="54" height="4" rx="2"></rect>
+                <path d="M39,38 C35.1340068,38 32,34.8659932 32,31 C32,27.1340068 35.1340068,24 39,24 C42.8659932,24 46,27.1340068 46,31 C46,34.8659932 42.8659932,38 39,38 Z M39,34 C40.6568542,34 42,32.6568542 42,31 C42,29.3431458 40.6568542,28 39,28 C37.3431458,28 36,29.3431458 36,31 C36,32.6568542 37.3431458,34 39,34 Z" id="Oval-18" fill="#1B88EE" fill-rule="nonzero"></path>
+                <path d="M39,34 C40.6568542,34 42,32.6568542 42,31 C42,29.3431458 40.6568542,28 39,28 C37.3431458,28 36,29.3431458 36,31 C36,32.6568542 37.3431458,34 39,34 Z" id="Path" fill="#FFFFFF"></path>
+                <path d="M0,7 C0,5.8954305 0.892217249,5 2.00209026,5 L51.9979097,5 C53.1036337,5 54,5.88772964 54,7 L54,7 C54,8.1045695 53.1077828,9 51.9979097,9 L2.00209026,9 C0.896366344,9 0,8.11227036 0,7 L0,7 Z" id="Rectangle-6" fill="#1B88EE"></path>
+                <path d="M15,14 C11.1340068,14 8,10.8659932 8,7 C8,3.13400675 11.1340068,0 15,0 C18.8659932,0 22,3.13400675 22,7 C22,10.8659932 18.8659932,14 15,14 Z M15,10 C16.6568542,10 18,8.65685425 18,7 C18,5.34314575 16.6568542,4 15,4 C13.3431458,4 12,5.34314575 12,7 C12,8.65685425 13.3431458,10 15,10 Z" id="Oval-18" fill="#1B88EE" fill-rule="nonzero"></path>
+                <path d="M15,10 C16.6568542,10 18,8.65685425 18,7 C18,5.34314575 16.6568542,4 15,4 C13.3431458,4 12,5.34314575 12,7 C12,8.65685425 13.3431458,10 15,10 Z" id="Path" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

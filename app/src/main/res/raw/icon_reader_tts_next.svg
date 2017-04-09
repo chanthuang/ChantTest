@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_reader_tts_next</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_reader_tts_next">
+            <g>
+                <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+                <path d="M1,15.002615 C1,13.3443165 2.11688471,12.7445898 3.50286814,13.6685788 L34.4971319,34.3314212 C35.8794278,35.2529518 35.8831153,36.7445898 34.4971319,37.6685788 L3.50286814,58.3314212 C2.12057223,59.2529518 1,58.6661074 1,56.997385 L1,15.002615 Z" id="Rectangle-2" fill="#1B88EE"></path>
+                <path d="M36,15.002615 C36,13.3443165 37.1168847,12.7445898 38.5028681,13.6685788 L69.4971319,34.3314212 C70.8794278,35.2529518 70.8831153,36.7445898 69.4971319,37.6685788 L38.5028681,58.3314212 C37.1205722,59.2529518 36,58.6661074 36,56.997385 L36,15.002615 Z" id="Rectangle-2" fill="#1B88EE"></path>
+            </g>
+        </g>
+    </g>
+</svg>

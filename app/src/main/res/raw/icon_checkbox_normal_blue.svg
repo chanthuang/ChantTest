@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_checkbox_normal_blue</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_checkbox_normal_blue">
+            <rect id="icon" x="0" y="0" width="60" height="60"></rect>
+            <path d="M30,57 C15.0883118,57 3,44.9116882 3,30 C3,15.0883118 15.0883118,3 30,3 C44.9116882,3 57,15.0883118 57,30 C57,44.9116882 44.9116882,57 30,57 Z M30,53 C42.7025492,53 53,42.7025492 53,30 C53,17.2974508 42.7025492,7 30,7 C17.2974508,7 7,17.2974508 7,30 C7,42.7025492 17.2974508,53 30,53 Z" id="Oval-58" fill="#1B88EE"></path>
+        </g>
+    </g>
+</svg>

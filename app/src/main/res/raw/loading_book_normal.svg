@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="192px" height="126px" viewBox="0 0 192 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>loading_book_normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="loading_book_normal" fill="#DEE0E2">
+            <path d="M0,8.99842124 C0,4.02873042 4.03231412,0 9.00303555,0 L182.996964,0 C187.969204,0 192,4.03185947 192,8.99842124 L192,117.001579 C192,121.97127 187.967686,126 182.996964,126 L9.00303555,126 C4.03079631,126 0,121.968141 0,117.001579 L0,8.99842124 Z M4,8.99842124 L4,117.001579 C4,119.759838 6.24077233,122 9.00303555,122 L182.996964,122 C185.759634,122 188,119.761043 188,117.001579 L188,8.99842124 C188,6.24016182 185.759228,4 182.996964,4 L9.00303555,4 C6.24036579,4 4,6.23895681 4,8.99842124 Z" id="Rectangle-510"></path>
+            <rect id="Rectangle-511" x="94" y="0" width="4" height="126"></rect>
+        </g>
+    </g>
+</svg>

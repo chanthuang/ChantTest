@@ -1,117 +1,259 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <com.chant.chanttest.svg.TraceLinearLayout
-        android:id="@+id/activity_main"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin">
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/discover_more"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:scaleType="centerCrop"
-            app:srcCompat="@drawable/discover_recommend_bg"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_account_article_round"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_account_bill_round"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_article_bookcover_style0"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_more_operation_book_detail"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_more_operation_browser"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_more_operation_collection_add"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_more_operation_share_friend"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_more_operation_share_moment"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_reader_footer_bright_dark"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_reader_footer_bright_selected"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_reader_footer_chapter_dark"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_reader_footer_font_dark"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_reader_footer_progress_selected"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_topbar_article"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_topbar_back"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_topbar_collected"/>
-
-        <android.support.v7.widget.AppCompatImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/icon_topbar_profile"/>
-
-    </com.chant.chanttest.svg.TraceLinearLayout>
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+<com.chant.chanttest.svg.TraceLinearLayout
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:gravity="center"
+android:orientation="vertical">
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_article_list_empty_image"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_article_set_cover_illustration_placeholder"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_book_cover_mask_with_review_icon"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_book_shelf_store_item_icon"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_discover_more"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_discover_recommend_bg"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_account_article_round"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_account_bill_round"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_account_booklist_round"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_account_follow_round"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_account_money"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_account_notifications"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_account_rank_round"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_account_review_round"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_account_setting"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_add_book_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_alarm_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_article_bookcover_style0"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_article_bookcover_style1"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_article_bookcover_style2"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_article_bookcover_style3"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_article_comment_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_article_praise_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_article_read_count_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_audio_remove"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_bookdetail_catalog"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_bookdetail_copyright"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_bookdetail_more"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_bookdetail_price"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_booklist_collection_cover"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_booklist_delete"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_bookshelf_archive_empty"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_bookshelf_finished"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_bookshelf_new"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_bookshelf_privacy"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_bookshelf_top_presale"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_chapter_lock"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_chat_image_error"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_checkbox_normal_blue"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_checkmark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_coin_large"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_collect_small_yellow"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_delete_line"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_deploy"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_dialog_checkbox_muti_checked"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_dialog_checkbox_muti_normal"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_discover_reading"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_discover_recommend_and"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_discover_recommend_next"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_discover_recommend_next_blue"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_face_delete"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_feedback_image"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_follow_add"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_follow_already"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_follow_mutual"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_follow_wechat"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_home_tab_bookshelf_normal"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_home_tab_bookshelf_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_home_tab_discover_normal"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_home_tab_discover_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_home_tab_personal_normal"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_home_tab_personal_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_home_tab_timeline_normal"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_home_tab_timeline_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_moment_middle"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_book_detail"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_book_send"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_booklist"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_bookmark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_bookmark_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_browser"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_collection_add"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_collection_remove"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_discover"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_discover_remove"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_link"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_progress"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_rate"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_report"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_save"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_secret"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_secret_remove"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_share_chat"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_share_friend"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_share_moment"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_share_pic"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_share_qzone"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_share_weibo"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_more_operation_voice"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_my_review_comment"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_my_review_praise"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_my_review_secret"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_pull_down"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_pyq_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_quote"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_rank_card_title"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_read_finished"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_read_finished_half"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_read_time_exchange_success"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_bookmark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_bookmark_on_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_bookmark_unmark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_bright_large_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_bright_small_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_finish_star"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_finish_star_gray"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_finish_star_gray_on_black"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_finish_star_on_black"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_finish_star_on_green"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_finish_star_on_yellow"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_font_large"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_font_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_fonttype_checkmark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_footer_bright_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_footer_bright_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_footer_chapter_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_footer_font_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_footer_font_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_footer_progress_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_footer_progress_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_progress_next_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_progress_previous_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_review_on_black"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_review_on_green"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_review_on_white"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_review_on_yellow"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_selection_arrow"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_selection_menu_copy"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_selection_menu_delete_line"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_selection_menu_line"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_selection_menu_review"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_selection_menu_share"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_selection_menu_voice"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_top_back_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_top_bookshelf_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_top_buy_dark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_top_friend"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_top_more"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_top_send_free"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_top_tts"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_tts_next"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_tts_pause"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_tts_play"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_tts_prev"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reader_write_review_on_white"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reading_encourage_percent_20"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reading_encourage_percent_50"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reading_encourage_percent_80"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reading_selected_menu_correction"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reading_selected_menu_dict"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_reading_separator_sign"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_readonly_back"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_readonly_book"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_recommend_user_delete"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_record_speaker"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_record_speaker_black"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_record_speaker_green"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_record_speaker_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_record_speaker_yellow"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_recording_bubble_arrow_down"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_recording_bubble_close"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_remind_cup"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_remind_steam"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_book_info_delete"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_bubble_comment"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_bubble_message"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_bubble_praise"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_collect_round"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_comment_large"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_comment"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_comment_medium"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_praise_medium_normal"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_praise_medium_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_praise_normal"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_praise_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_praise_title"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_repost"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_repost_medium"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_repost_medium_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_repost_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_detail_repost_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_praise_large"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_praise_large_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_praise_round"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_repost_large"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_repost_large_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_repost_round"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_review_secret_cornermark"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_search"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_search_suggest_author"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_search_suggest_book"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_search_suggest_category"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_sending_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_sendtip_gift"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_share_picture_qrcode_normal"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_share_picture_qrcode_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_sharelayout_a"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_sharelayout_b"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_sharelayout_c"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_sharelayout_d"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_star_big"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_star_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_style_add_note"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_style_back"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_style_bold"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_style_header"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_style_list"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_style_quote"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_add"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_article"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_back"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_close"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_collect"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_collected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_music"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_profile"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_record_refresh"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_scancode"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_search"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_share"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_tts_option"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_undeploy"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_topbar_write_review"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_user_recommend"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_user_verify"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_user_verify_medium"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_user_verify_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_weixin"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_weixin_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_write_review_at"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_write_review_book_select"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_write_review_book_selected"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_write_review_close"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_write_review_compose"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_write_review_face"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_write_review_star_close"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_write_review_style"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_icon_write_review_topic"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_illustration_lock"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_invite_status_bg"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_loading_book_normal"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_loading_book_small"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_quick_action_arrow_down"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_quick_action_arrow_down_on_black"/>
+<android.support.v7.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/vd_weixin_invite_desc"/>
+</com.chant.chanttest.svg.TraceLinearLayout>
 </ScrollView>

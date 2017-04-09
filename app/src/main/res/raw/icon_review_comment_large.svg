@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_review_comment_large</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_review_comment_large">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <path d="M59.0077,12 L13.9927,12 C10.6917,12 7.9997,14.684 7.9997,17.995 L7.9997,48.005 C7.9997,51.309 10.6827,54 13.9927,54 L22.9997,54 L22.9997,68 L39.9997,54 L58.9957,54 C62.3127,54 64.9997,51.316 64.9997,48.005 L64.9997,17.995 C64.9997,14.691 62.3167,12 59.0077,12 Z M59.0077,16 C60.1067,16 60.9997,16.895 60.9997,17.995 L60.9997,48.005 C60.9997,49.105 60.1007,50 58.9957,50 L39.9997,50 L38.5647,50 L37.4567,50.912 L26.9997,59.524 L26.9997,54 L26.9997,50 L22.9997,50 L13.9927,50 C12.8937,50 11.9997,49.105 11.9997,48.005 L11.9997,17.995 C11.9997,16.895 12.8937,16 13.9927,16 L59.0077,16 Z" id="Fill-1" fill="#717882"></path>
+        </g>
+    </g>
+</svg>

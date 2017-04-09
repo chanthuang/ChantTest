@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_bookshelf_privacy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M27.4873537,40.5 L10.0126478,40.5 C9.43549132,40.5 8.98236058,40.9669 9.00052773,41.5486 L9.31705545,51.7 C9.59620076,58.49175 15.0320228,61.3278 18.7500008,61.5 C22.3984544,61.3278 27.8339271,58.49175 28.1829461,51.7 L28.4994738,41.5486 C28.517641,40.96935 28.0631128,40.5 27.4873537,40.5 Z M25.0131286,47.2786375 C25.0131286,46.6816005 24.0511286,46.6816005 22.6494922,46.6816005 C21.6774468,46.6816005 20.2858558,47.8756746 20.2858558,48.4727117 C20.2858558,48.4727117 21.467674,49.0697488 22.6494922,49.0697488 C23.8313104,49.0697488 25.0131286,47.2786375 25.0131286,47.2786375 Z M12.3582115,47.2786375 C12.3582115,46.6816005 13.3202115,46.6816005 14.7218479,46.6816005 C15.6938933,46.6816005 17.0854842,47.8756746 17.0854842,48.4727117 C17.0854842,48.4727117 15.9036661,49.0697488 14.7218479,49.0697488 C13.5400297,49.0697488 12.3582115,47.2786375 12.3582115,47.2786375 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_bookshelf_privacy">
+            <g id="icon_bookcover_secret">
+                <polygon id="Rectangle-2" fill="#1B88EE" points="0 0 72 72 0 72"></polygon>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

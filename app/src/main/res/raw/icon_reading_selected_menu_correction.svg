@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_reading_selected_menu_correction</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon_reading" sketch:type="MSArtboardGroup" transform="translate(-1358.000000, -192.000000)" fill="#FFFFFF">
+            <g id="icon_reading_selected_menu_correction" sketch:type="MSLayerGroup" transform="translate(1358.000000, 192.000000)">
+                <path d="M35.7983442,10 C34.7703442,10 33.7423442,10.729 32.9583442,12.189 L9.63834417,55.612 C8.07234417,58.528 9.48634417,60.9 12.8003442,60.9 L58.7963442,60.9 C62.1173442,60.9 63.5273442,58.533 61.9583442,55.612 L38.6383442,12.189 C37.8553442,10.73 36.8273442,10 35.7983442,10 M35.7983442,13.282 C35.8593442,13.371 35.9263442,13.479 35.9953442,13.608 L59.3153442,57.031 C59.5153442,57.403 59.5753442,57.653 59.5923442,57.787 C59.4663442,57.835 59.2183442,57.9 58.7963442,57.9 L12.8003442,57.9 C12.3783442,57.9 12.1303442,57.834 12.0063442,57.786 C12.0223442,57.654 12.0813442,57.404 12.2813442,57.031 L35.6013442,13.608 C35.6713442,13.479 35.7373442,13.371 35.7983442,13.282 Z M35,28 L38,28 L38,46 L35,46 L35,28 Z M35,49 L38,49 L38,52 L35,52 L35,49 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="132px" viewBox="0 0 132 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_reader_tts_pause</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_reader_tts_pause" fill="#1B88EE">
+            <path d="M66,132 C29.5492065,132 0,102.450793 0,66 C0,29.5492065 29.5492065,0 66,0 C102.450793,0 132,29.5492065 132,66 C132,102.450793 102.450793,132 66,132 Z M75,43.9998806 L75,89.0001194 C75,90.6620883 76.3418707,92 77.997152,92 L84.002848,92 C85.6583772,92 87,90.6569077 87,89.0001194 L87,43.9998806 C87,42.3379117 85.6581293,41 84.002848,41 L77.997152,41 C76.3416228,41 75,42.3430923 75,43.9998806 Z M45,43.9998806 L45,89.0001194 C45,90.6620883 46.3418707,92 47.997152,92 L54.002848,92 C55.6583772,92 57,90.6569077 57,89.0001194 L57,43.9998806 C57,42.3379117 55.6581293,41 54.002848,41 L47.997152,41 C46.3416228,41 45,42.3430923 45,43.9998806 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

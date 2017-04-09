@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_home_tab_discover_selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon_bar" sketch:type="MSArtboardGroup" transform="translate(-1116.000000, -60.000000)" fill="#1B88EE">
+            <g id="icon_home_tab_discover_selected" sketch:type="MSLayerGroup" transform="translate(1116.000000, 60.000000)">
+                <path d="M36.5,71 C55.5538239,71 71,55.5538239 71,36.5 C71,17.4461761 55.5538239,2 36.5,2 C17.4461761,2 2,17.4461761 2,36.5 C2,55.5538239 17.4461761,71 36.5,71 Z M36.219056,28.0500988 C33.336651,29.6792842 29.6819495,33.3319355 28.0500988,36.219056 L18,54 L35.780944,43.9499012 C38.663349,42.3207158 42.3180505,38.6680645 43.9499012,35.780944 L54,18 L36.219056,28.0500988 Z M36,39 C37.6568542,39 39,37.6568542 39,36 C39,34.3431458 37.6568542,33 36,33 C34.3431458,33 33,34.3431458 33,36 C33,37.6568542 34.3431458,39 36,39 Z" id="Oval-2" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

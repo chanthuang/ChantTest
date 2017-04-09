@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_bookdetail_catalog</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_bookdetail_catalog">
+            <rect id="icon" x="0" y="0" width="48" height="48"></rect>
+            <polygon id="Fill-22" fill="#99A0AA" points="12 12 45 12 45 15 12 15"></polygon>
+            <polygon id="Fill-23" fill="#99A0AA" points="12 24 45 24 45 27 12 27"></polygon>
+            <polygon id="Fill-24" fill="#99A0AA" points="12 36 45 36 45 39 12 39"></polygon>
+            <polygon id="Fill-93" fill="#99A0AA" points="6 12 9 12 9 15 6 15"></polygon>
+            <polygon id="Fill-94" fill="#99A0AA" points="6 24 9 24 9 27 6 27"></polygon>
+            <polygon id="Fill-95" fill="#99A0AA" points="6 36 9 36 9 39 6 39"></polygon>
+        </g>
+    </g>
+</svg>

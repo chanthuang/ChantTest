@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_reader_finish_star</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_reader_finish_star">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <polygon id="Path" fill-opacity="0.1" fill="#1B88EE" points="37 6 44 29 68 29 49 44 56 66 37 53 17 66 25 44 5 29 29 29"></polygon>
+            <path d="M37,6 L44,29 L68,29 L49,44 L56,66 L37,53 L17,66 L25,44 L5,29 L29,29 L37,6 Z M29.7109388,30 L8,30 L26.1931929,43.6448946 L18.9613624,63.5324284 L37.0142286,51.7980654 L54.1657457,63.5333139 L47.8372828,43.643859 L65.1195042,30 L43.2590595,30 L36.9366032,9.22621479 L29.7109388,30 Z" id="Path" fill-opacity="0.5" fill="#1B88EE" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

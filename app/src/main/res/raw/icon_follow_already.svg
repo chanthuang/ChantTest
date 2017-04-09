@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_follow_already</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_follow_already">
+            <rect id="icon" x="0" y="0" width="36" height="36"></rect>
+            <path d="M2.8213658,20.8213658 C2.43187317,20.4318732 2.43717957,19.7950745 2.82708514,19.4051689 L4.40516889,17.8270851 C4.79782022,17.4344338 5.43839264,17.4383926 5.82170881,17.8217088 L12.616127,24.616127 L29.9105057,7.32174835 C30.3002096,6.93204445 30.9371796,6.93717957 31.3270851,7.32708514 L32.9051689,8.90516889 C33.2978202,9.29782022 33.3029714,9.92928265 32.9053863,10.3268677 L13.3268677,29.9053863 C12.9343365,30.2979175 12.3018829,30.3018829 11.9108882,29.9108882 L2.8213658,20.8213658 Z" id="Path" fill="#1B88EE"></path>
+        </g>
+    </g>
+</svg>

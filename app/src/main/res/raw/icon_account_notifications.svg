@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_account_notifications</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_account_notifications">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <g id="Group-2" transform="translate(6.000000, 12.000000)" fill="#1B88EE">
+                <path d="M0,6.00638655 C0,2.68915086 2.69463714,0 6.0000383,0 L53.9999617,0 C57.3136914,0 60,2.68354127 60,6.00638655 L60,41.9936134 C60,45.3108491 57.3053629,48 53.9999617,48 L6.0000383,48 C2.68630865,48 0,45.3164587 0,41.9936134 L0,6.00638655 Z M4,6.00638655 L4,41.9936134 C4,43.1057513 4.89388019,44 6.0000383,44 L53.9999617,44 C55.0990115,44 56,43.0989222 56,41.9936134 L56,6.00638655 C56,4.89424869 55.1061198,4 53.9999617,4 L6.0000383,4 C4.90098849,4 4,4.90107781 4,6.00638655 Z" id="Combined-Shape"></path>
+                <polygon id="Line" points="2.62936783 5.84938548 0.370632169 9.15061452 30 29.4233399 59.6293678 9.15061452 57.3706322 5.84938548 30 24.5766601"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="168px" height="168px" viewBox="0 0 168 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_more_operation_share_pic</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_more_operation_share_pic">
+            <rect id="icon" x="0" y="0" width="168" height="168"></rect>
+            <rect id="background" fill="#0985F1" x="0" y="0" width="168" height="168" rx="36"></rect>
+            <g id="Group-2" transform="translate(49.000000, 29.000000)" fill="#FFFFFF">
+                <path d="M20,23 L6.00065947,23 C2.67653633,23 0,25.683179 0,28.993048 L0,91.006952 C0,94.3225833 2.68603825,97 5.99943435,97 L66.0005656,97 C69.3089213,97 72,94.316821 72,91.006952 L72,28.993048 C72,25.6774167 69.3134132,23 65.9993405,23 L52,23 L52,27 L65.9993405,27 C67.1079978,27 68,27.8902791 68,28.993048 L68,91.006952 C68,92.1044695 67.102995,93 66.0005656,93 L5.99943435,93 C4.89163657,93 4,92.1099041 4,91.006952 L4,28.993048 C4,27.8889472 4.88904649,27 6.00065947,27 L20,27 L20,23 Z" id="Rectangle"></path>
+                <rect id="Combined-Shape" x="19" y="72" width="34" height="4"></rect>
+                <rect id="Combined-Shape" x="19" y="58" width="34" height="4"></rect>
+                <rect id="Combined-Shape" x="19" y="44" width="34" height="4"></rect>
+                <rect id="Rectangle-2" x="34" y="0" width="4" height="33" rx="2"></rect>
+                <polygon id="Line" points="34.4090097 4.59099026 43.4090097 13.5909903 46.5909903 10.4090097 37.5909903 1.40900974"></polygon>
+                <polygon id="Line" points="34.4090097 1.40900974 25.4090097 10.4090097 28.5909903 13.5909903 37.5909903 4.59099026"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

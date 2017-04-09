@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_reader_write_review_on_white</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="temp" transform="translate(-58.000000, -684.000000)" fill="#FFFFFF">
+            <g id="icon_reader_write_review_on_white" transform="translate(58.000000, 684.000000)">
+                <g id="icon_topbar_write_review" transform="translate(8.000000, 6.000000)">
+                    <path d="M21.0592473,12.1200221 C8.14225634,25.8680689 2.41273215,44.4055443 0.0592472951,57.1200221 C-0.194927414,59.7010237 0.450985998,59.0239494 0.450985998,59.0239494 C1.33920419,59.6292937 2.46397714,59.3105624 2.95395235,58.330612 L4.0592473,56.1200221 C4.52025134,55.7107035 7.64160929,51.6560474 11.0592473,48.1200221 C12.7529836,45.9181854 15.5941424,44.5865825 19.0592473,44.1200221 C37.0941524,43.1517429 46.3871425,23.0724166 47.0592473,22.1200221 C43.7870151,21.9787068 42.357231,22.0640402 40.0592473,21.6200221 C44.0592473,18.6200221 49.0592473,17.1200221 49.0592473,17.1200221 L54.9311522,4.64222425 C56.1064667,2.14468097 54.8218986,0.0491875602 52.0605807,0.098971133 C52.0605807,0.098971133 33.9762383,-1.62802471 21.0592473,12.1200221 Z" id="icon_account_review"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

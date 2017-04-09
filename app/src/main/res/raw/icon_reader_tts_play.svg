@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="132px" viewBox="0 0 132 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_reader_tts_play</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_reader_tts_play" fill="#1B88EE">
+            <path d="M66,132 C29.5492065,132 0,102.450793 0,66 C0,29.5492065 29.5492065,0 66,0 C102.450793,0 132,29.5492065 132,66 C132,102.450793 102.450793,132 66,132 Z M48,38.9959374 L48,93.0040626 C48,94.6626903 49.1402404,95.2873497 50.5467983,94.4082511 L93.4532017,67.5917489 C94.8608201,66.7119875 94.8597596,65.2873497 93.4532017,64.4082511 L50.5467983,37.5917489 C49.1391799,36.7119875 48,37.3413269 48,38.9959374 Z" id="Combined-Shape"></path>
+        </g>
+    </g>
+</svg>

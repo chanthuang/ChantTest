@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_write_review_face</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_write_review_face">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <path d="M36,66 C19.4314575,66 6,52.5685425 6,36 C6,19.4314575 19.4314575,6 36,6 C52.5685425,6 66,19.4314575 66,36 C66,52.5685425 52.5685425,66 36,66 Z M36,62 C50.3594035,62 62,50.3594035 62,36 C62,21.6405965 50.3594035,10 36,10 C21.6405965,10 10,21.6405965 10,36 C10,50.3594035 21.6405965,62 36,62 Z" id="icon_face" fill="#858C96"></path>
+            <path d="M20.6628508,41.5704993 C22.6655943,48.2998189 28.8734291,53 36,53 C43.1265709,53 49.3344057,48.2998189 51.3371492,41.5704993 C51.6522272,40.511821 51.0494202,39.3981715 49.9907419,39.0830935 C48.9320637,38.7680154 47.8184142,39.3708225 47.5033361,40.4295007 C46.0020438,45.473919 41.3449193,49 36,49 C30.6550807,49 25.9979562,45.473919 24.4966639,40.4295007 C24.1815858,39.3708225 23.0679363,38.7680154 22.0092581,39.0830935 C20.9505798,39.3981715 20.3477728,40.511821 20.6628508,41.5704993 L20.6628508,41.5704993 Z" id="Combined-Shape" fill="#858C96"></path>
+            <circle id="Oval-151" fill="#858C96" cx="47" cy="28" r="3"></circle>
+            <circle id="Oval-151" fill="#858C96" cx="25" cy="28" r="3"></circle>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_review_book_info_delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_review_book_info_delete">
+            <rect id="icon" x="0" y="0" width="48" height="48"></rect>
+            <path d="M24,21.8786797 L15.5147186,13.3933983 L13.3933983,15.5147186 L21.8786797,24 L13.3933983,32.4852814 L15.5147186,34.6066017 L24,26.1213203 L32.4852814,34.6066017 L34.6066017,32.4852814 L26.1213203,24 L34.6066017,15.5147186 L32.4852814,13.3933983 L24,21.8786797 Z M24,48 C37.254834,48 48,37.254834 48,24 C48,10.745166 37.254834,0 24,0 C10.745166,0 0,10.745166 0,24 C0,37.254834 10.745166,48 24,48 Z" id="delete" fill="#C4C8D0"></path>
+        </g>
+    </g>
+</svg>

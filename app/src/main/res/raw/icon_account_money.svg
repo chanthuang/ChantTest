@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_account_money</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_account_money">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <rect id="Rectangle-464" fill="#353C46" x="31" y="33" width="10" height="33"></rect>
+            <rect id="Rectangle-462" fill="#353C46" x="17" y="47" width="38" height="8"></rect>
+            <polygon id="Rectangle-465" fill="#353C46" transform="translate(45.500000, 20.500000) scale(-1, 1) translate(-45.500000, -20.500000) " points="32 6 42 6 59 35 49 35"></polygon>
+            <polygon id="Rectangle-465" fill="#353C46" points="13 6 23 6 40 35 30 35"></polygon>
+            <rect id="Rectangle-462" fill="#353C46" x="17" y="33" width="38" height="8"></rect>
+        </g>
+    </g>
+</svg>

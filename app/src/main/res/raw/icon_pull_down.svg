@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="27px" height="36px" viewBox="0 0 27 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_pull_down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_pull_down">
+            <rect id="icon" x="0" y="0" width="27" height="36"></rect>
+            <polygon id="Shape" fill="#FFFFFF" points="15 3 15 36 12 36 12 3"></polygon>
+            <path d="M24.237,14.9358274 C23.9625,15.2207827 23.526,15.2267818 23.262,14.9523248 L11.799,3.48962282 C11.5335,3.21366611 11.541,2.76073716 11.814,2.47578185 L13.056,1.28946794 C13.329,1.0060124 13.767,0.998513575 14.031,1.27297052 L25.4955,12.7356725 C25.758,13.0101295 25.752,13.4645582 25.4775,13.7495135 L24.237,14.9358274 Z" id="Shape-2" fill="#FFFFFF"></path>
+            <path d="M13.737,14.9358274 C13.4625,15.2207827 13.026,15.2267818 12.762,14.9523248 L1.299,3.48962282 C1.0335,3.21366611 1.041,2.76073716 1.314,2.47578185 L2.556,1.28946794 C2.829,1.0060124 3.267,0.998513575 3.531,1.27297052 L14.9955,12.7356725 C15.258,13.0101295 15.252,13.4645582 14.9775,13.7495135 L13.737,14.9358274 Z" id="Shape-3" fill="#FFFFFF" transform="translate(8.146225, 8.112923) scale(-1, 1) translate(-8.146225, -8.112923) "></path>
+        </g>
+    </g>
+</svg>

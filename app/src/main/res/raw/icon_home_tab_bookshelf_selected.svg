@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15575) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_home_tab_bookshelf_selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon_bar" sketch:type="MSArtboardGroup" transform="translate(-1380.000000, -60.000000)" fill="#1B88EE">
+            <g id="icon_home_tab_bookshelf_selected" sketch:type="MSLayerGroup" transform="translate(1380.000000, 60.000000)">
+                <path d="M72,40.2733236 L72,39 L12.5003198,39 C5.58980741,39 0,44.5964406 0,51.5 C0,58.4050773 5.5965838,64 12.5003198,64 L72,64 L72,62.7266764 C68.3820428,60.3048924 66,56.1806242 66,51.5 C66,46.8193758 68.3820428,42.6951076 72,40.2733236 Z" id="Rectangle-25" sketch:type="MSShapeGroup" transform="translate(36.000000, 51.500000) scale(-1, 1) translate(-36.000000, -51.500000) "></path>
+                <path d="M72,9.27332355 L72,8 L12.5003198,8 C5.58980741,8 0,13.5964406 0,20.5 C0,27.4050773 5.5965838,33 12.5003198,33 L72,33 L72,31.7266764 C68.3820428,29.3048924 66,25.1806242 66,20.5 C66,15.8193758 68.3820428,11.6951076 72,9.27332355 Z" id="Rectangle-25" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>book_shelf_store_item_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="book_shelf_store_item_icon">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <path d="M33,33 L6.00738502,33 C4.34828267,33 3,34.3431458 3,36 C3,37.6534829 4.34645213,39 6.00738502,39 L33,39 L33,65.992615 C33,67.6517173 34.3431458,69 36,69 C37.6534829,69 39,67.6535479 39,65.992615 L39,39 L65.992615,39 C67.6517173,39 69,37.6568542 69,36 C69,34.3465171 67.6535479,33 65.992615,33 L39,33 L39,6.00738502 C39,4.34828267 37.6568542,3 36,3 C34.3465171,3 33,4.34645213 33,6.00738502 L33,33 L33,33 Z" id="add" fill="#C4C8D0"></path>
+        </g>
+    </g>
+</svg>

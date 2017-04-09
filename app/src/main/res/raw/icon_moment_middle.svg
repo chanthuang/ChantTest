@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15855) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_moment_middle</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icon_general" sketch:type="MSArtboardGroup" transform="translate(-1688.000000, -192.000000)">
+            <g id="icon_moment_middle" sketch:type="MSLayerGroup" transform="translate(1688.000000, 192.000000)">
+                <path d="M60,14.0484685 C56.2466529,12.7218507 52.2076251,12 48,12 C42.7175537,12 37.7008411,13.1377411 33.1815428,15.1815428 L60,42 L60,14.0484685 L60,14.0484685 Z" id="mask" fill="#FB504E" sketch:type="MSShapeGroup"></path>
+                <path d="M31.3083757,16.0951723 C23.9432201,19.9563201 18.0798766,26.2930266 14.823637,34 L49.2132034,34 L31.3083757,16.0951723 L31.3083757,16.0951723 Z" id="mask" fill="#FF7400" sketch:type="MSShapeGroup"></path>
+                <path d="M14.0484685,36 C12.7218507,39.7533471 12,43.7923749 12,48 C12,53.2824463 13.1377411,58.2991589 15.1815428,62.8184572 L42,36 L14.0484685,36 L14.0484685,36 Z" id="mask" fill="#FEC700" sketch:type="MSShapeGroup"></path>
+                <path d="M16.0951723,64.6916243 C19.9563201,72.0567799 26.2930266,77.9201234 34,81.176363 L34,46.7867966 L16.0951723,64.6916243 L16.0951723,64.6916243 Z" id="mask" fill="#9ED307" sketch:type="MSShapeGroup"></path>
+                <path d="M62.8184572,80.8184572 C58.2991589,82.8622589 53.2824463,84 48,84 C43.7923749,84 39.7533471,83.2781493 36,81.9515315 L36,54 L62.8184572,80.8184572 L62.8184572,80.8184572 Z" id="mask" fill="#61D100" sketch:type="MSShapeGroup"></path>
+                <path d="M64.6916243,79.9048277 C72.0567799,76.0436799 77.9201234,69.7069734 81.176363,62 L46.7867966,62 L64.6916243,79.9048277 L64.6916243,79.9048277 Z" id="mask" fill="#00B1FD" sketch:type="MSShapeGroup"></path>
+                <path d="M81.9515315,60 C83.2781493,56.2466529 84,52.2076251 84,48 C84,42.7175537 82.8622589,37.7008411 80.8184572,33.1815428 L54,60 L81.9515315,60 L81.9515315,60 Z" id="mask" fill="#4D7FF2" sketch:type="MSShapeGroup"></path>
+                <path d="M79.9048277,31.3083757 C76.0436799,23.9432201 69.7069734,18.0798766 62,14.823637 L62,49.2132034 L79.9048277,31.3083757 L79.9048277,31.3083757 Z" id="mask" fill="#6261F3" sketch:type="MSShapeGroup"></path>
+            </g>
+        </g>
+    </g>
+</svg>

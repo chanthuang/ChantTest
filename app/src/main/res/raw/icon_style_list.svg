@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_style_list</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_style_list">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <path d="M21,52 L63,52 L63,56 L21,56 L21,52 Z M9,54 C9,52.3431458 10.3465171,51 12,51 C13.6568542,51 15,52.3465171 15,54 C15,55.6568542 13.6534829,57 12,57 C10.3431458,57 9,55.6534829 9,54 Z M21,34 L63,34 L63,38 L21,38 L21,34 Z M9,36 C9,34.3431458 10.3465171,33 12,33 C13.6568542,33 15,34.3465171 15,36 C15,37.6568542 13.6534829,39 12,39 C10.3431458,39 9,37.6534829 9,36 Z M21,16 L63,16 L63,20 L21,20 L21,16 Z M9,18 C9,16.3431458 10.3465171,15 12,15 C13.6568542,15 15,16.3465171 15,18 C15,19.6568542 13.6534829,21 12,21 C10.3431458,21 9,19.6534829 9,18 Z" id="Combined-Shape" fill="#858C96"></path>
+        </g>
+    </g>
+</svg>

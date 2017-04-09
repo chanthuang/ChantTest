@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="165px" viewBox="0 0 288 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>article_set_cover_illustration_placeholder</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.1">
+        <g id="article_set_cover_illustration_placeholder" fill="#1B88EE">
+            <g>
+                <polygon id="Line" points="72 165 180 0 288 165"></polygon>
+                <circle id="Oval" cx="77" cy="49" r="36"></circle>
+                <polygon id="Line" points="0 165 72 55 144 165"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

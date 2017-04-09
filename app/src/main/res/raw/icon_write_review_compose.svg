@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_write_review_compose</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_write_review_compose">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <path d="M7.95421282,8 C6.29821282,8 5.56121282,9.405 6.26821282,11.763 L13.5442128,36.014 L6.26821282,60.265 C5.56121282,62.624 6.29621282,64.028 7.95221282,64.028 C8.52721282,64.028 9.21321282,63.859 9.98821282,63.501 L64.1002128,38.526 C67.1042128,37.14 67.1062128,34.889 64.1002128,33.501 L9.98821282,8.526 C9.21421282,8.169 8.52921282,8 7.95421282,8 Z M10.9252128,13.364 L59.9982128,36.014 L10.9252128,58.663 L17.3752128,37.163 L17.7202128,36.014 L17.3752128,34.864 L10.9252128,13.364 Z" id="Fill-1" fill="#1B88EE"></path>
+            <polygon id="Line" fill="#1B88EE" points="17 38 62 38 64 38 64 34 62 34 17 34 15 34 15 38"></polygon>
+        </g>
+    </g>
+</svg>

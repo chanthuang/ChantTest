@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_reader_footer_progress_dark</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_reader_footer_progress_dark">
+            <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+            <rect id="Rectangle-51" fill="#1B88EE" x="54" y="34" width="16" height="4"></rect>
+            <rect id="Rectangle-51" fill="#1B88EE" x="2" y="34" width="10" height="4" rx="2"></rect>
+            <path d="M33,54 C23.0588745,54 15,45.9411255 15,36 C15,26.0588745 23.0588745,18 33,18 C42.9411255,18 51,26.0588745 51,36 C51,45.9411255 42.9411255,54 33,54 Z M33,50 C40.7319865,50 47,43.7319865 47,36 C47,28.2680135 40.7319865,22 33,22 C25.2680135,22 19,28.2680135 19,36 C19,43.7319865 25.2680135,50 33,50 Z" id="Oval-7" fill="#1B88EE"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_user_recommend</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_user_recommend">
+            <rect id="icon" x="0" y="0" width="36" height="36"></rect>
+            <circle id="Oval-252" fill="#479EF5" cx="18" cy="18" r="18"></circle>
+            <path d="M18,13.95 L18,11.0935491 C18,9.44025759 18.9461472,9.04614722 20.1214777,10.2214777 L25.9411203,16.0411203 C26.5259234,16.6259234 26.5536886,17.5909425 25.9850804,18.2164116 L20.0197757,24.7782468 C18.9042844,26.0052872 18,25.6664172 18,24.0000425 L18,20.25 C12.0166422,20.1848948 9,25.2 9,25.2 C9,14.7043304 18,13.95 18,13.95 Z" id="Rectangle-1236" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

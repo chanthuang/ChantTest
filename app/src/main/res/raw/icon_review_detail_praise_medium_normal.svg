@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.1 (28215) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_review_detail_praise_medium_normal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_general" transform="translate(-978.000000, -60.000000)" fill="#99A0AA">
+            <g id="icon_review_detail_praise_medium_normal" transform="translate(978.000000, 60.000000)">
+                <path d="M33,4 C29.474,4 26.166,5.744 24,8 C21.834,5.744 18.526,4 15,4 C8.289,4 3,9.373 3,16 C3,17.704 3.354,19.321 4,21 C8.124,31.736 22.359,44 24,44 C25.641,44 39.876,31.736 44,21 C44.646,19.321 45,17.704 45,16 C45,9.373 39.711,4 33,4 M33,8 C37.486,8 41,11.514 41,16 C41,17.131 40.767,18.263 40.266,19.566 C37.296,27.296 27.851,36.454 24,39.393 C20.149,36.454 10.703,27.296 7.733,19.564 C7.233,18.263 7,17.131 7,16 C7,11.514 10.514,8 15,8 C17.548,8 19.829,9.431 21.114,10.77 L24,13.776 L26.886,10.77 C28.171,9.431 30.452,8 33,8" id="Page-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_review_repost_round</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="slice" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_general" transform="translate(-1518.000000, -60.000000)">
+            <g id="icon_review_repost_round" transform="translate(1518.000000, 60.000000)">
+                <rect id="icon" x="0" y="0" width="72" height="72"></rect>
+                <circle id="Oval-252" fill="#479EF5" cx="36" cy="36" r="30"></circle>
+                <path d="M36,29.25 L36,21.4965855 C36,20.3939018 36.6349504,20.1349504 37.4111636,20.9111636 L50.2966378,33.7966378 C50.685094,34.185094 50.7003693,34.8295938 50.3263407,35.2410252 L37.3443507,49.5212142 C36.6018863,50.337925 36,50.0983823 36,49.0016888 L36,39.75 C26.027737,39.6414913 21,48 21,48 C21,30.5072174 36,29.25 36,29.25 Z" id="Rectangle-1236" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

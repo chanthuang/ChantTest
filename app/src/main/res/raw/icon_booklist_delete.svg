@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_booklist_delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_booklist_delete">
+            <rect id="icon" x="0" y="0" width="42" height="42"></rect>
+            <g transform="translate(3.000000, 3.000000)">
+                <rect id="icon" x="0" y="0" width="48" height="48"></rect>
+                <circle id="Oval-58" fill="#99A0AA" cx="24" cy="24" r="24"></circle>
+                <path d="M15.4393398,30.4393398 C14.8535534,31.0251263 14.8535534,31.9748737 15.4393398,32.5606602 C16.0251263,33.1464466 16.9748737,33.1464466 17.5606602,32.5606602 L32.5606602,17.5606602 C33.1464466,16.9748737 33.1464466,16.0251263 32.5606602,15.4393398 C31.9748737,14.8535534 31.0251263,14.8535534 30.4393398,15.4393398 L15.4393398,30.4393398 Z" id="Line" fill="#FFFFFF"></path>
+                <path d="M30.4393398,32.5606602 C31.0251263,33.1464466 31.9748737,33.1464466 32.5606602,32.5606602 C33.1464466,31.9748737 33.1464466,31.0251263 32.5606602,30.4393398 L17.5606602,15.4393398 C16.9748737,14.8535534 16.0251263,14.8535534 15.4393398,15.4393398 C14.8535534,16.0251263 14.8535534,16.9748737 15.4393398,17.5606602 L30.4393398,32.5606602 Z" id="Line" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
