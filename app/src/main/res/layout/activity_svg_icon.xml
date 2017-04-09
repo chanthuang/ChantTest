@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <com.chant.chanttest.svg.TraceLinearLayout
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -15,102 +15,102 @@
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin">
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:scaleType="centerCrop"
             android:src="@raw/discover_more"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="80dp"
             android:layout_height="80dp"
             android:scaleType="centerCrop"
             android:src="@raw/discover_recommend_bg"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_account_article_round"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_account_bill_round"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_article_bookcover_style0"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_more_operation_book_detail"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_more_operation_browser"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_more_operation_collection_add"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_more_operation_share_friend"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_more_operation_share_moment"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_reader_footer_bright_dark"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_reader_footer_bright_selected"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_reader_footer_chapter_dark"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_reader_footer_font_dark"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_reader_footer_progress_selected"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_topbar_article"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_topbar_back"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_topbar_collected"/>
 
-        <ImageView
+        <com.chant.chanttest.svg.SVGImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@raw/icon_topbar_profile"/>
 
-    </LinearLayout>
+    </com.chant.chanttest.svg.TraceLinearLayout>
 </ScrollView>
