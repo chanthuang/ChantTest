@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.support.v7.widget.PagerSnapHelper;
 import android.support.v7.widget.RecyclerView;
 import android.view.Gravity;
 import android.view.View;
@@ -55,6 +56,20 @@ public class RecyclerViewActivity extends FragmentActivity {
 
         {
             Button button = new Button(this);
+            button.setText("scroll to first");
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    recyclerView.smoothScrollToPosition(0);
+                }
+            });
+            FrameLayout.LayoutParams buttonLp1 = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+            buttonLp1.topMargin = QMUIDisplayHelper.dpToPx(40);
+            frameLayout.addView(button, buttonLp1);
+        }
+
+        {
+            Button button = new Button(this);
             button.setText("scroll to last");
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -65,7 +80,7 @@ public class RecyclerViewActivity extends FragmentActivity {
                 }
             });
             FrameLayout.LayoutParams buttonLp1 = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-            buttonLp1.topMargin = QMUIDisplayHelper.dpToPx(40);
+            buttonLp1.topMargin = QMUIDisplayHelper.dpToPx(80);
             frameLayout.addView(button, buttonLp1);
         }
 

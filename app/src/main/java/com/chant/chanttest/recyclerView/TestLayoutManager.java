@@ -158,13 +158,18 @@ public class TestLayoutManager extends RecyclerView.LayoutManager implements Rec
         return realScrollX;
     }
 
+    // 每拖动这么多距离就旋转一周
+    private int oneCircleDistance() {
+        return QMUIDisplayHelper.dpToPx(200);
+    }
+
     private float offsetToAngle(int offset) {
-        int oneCircleDistance = QMUIDisplayHelper.dpToPx(200); // 每拖动这么多距离就旋转一周
+        int oneCircleDistance = oneCircleDistance();
         return (float) offset / oneCircleDistance * 360;
     }
 
     private int angleToOffset(float angle) {
-        int oneCircleDistance = QMUIDisplayHelper.dpToPx(200); // 每拖动这么多距离就旋转一周
+        int oneCircleDistance = oneCircleDistance();
         return (int) (angle / 360 * oneCircleDistance);
     }
 
@@ -172,7 +177,16 @@ public class TestLayoutManager extends RecyclerView.LayoutManager implements Rec
 
     @Override
     public void smoothScrollToPosition(RecyclerView recyclerView, RecyclerView.State state, int position) {
-        LinearSmoothScroller scroller = new LinearSmoothScroller(recyclerView.getContext());
+        final float targetAngle = position * mBuilder.mIntervalAngle;
+        final boolean isScrollLeft = targetAngle < mCurrentAngle;
+        LinearSmoothScroller scroller = new LinearSmoothScroller(recyclerView.getContext()) {
+            @Override
+            protected int getHorizontalSnapPreference() {
+                // 要覆盖 super，否则当 targetView 处于屏幕内又不在目标位置时，super会返回 SNAP_TO_ANY，导致没有执行动画
+//                return super.getHorizontalSnapPreference();
+                return isScrollLeft ? SNAP_TO_END : SNAP_TO_START;
+            }
+        };
         scroller.setTargetPosition(position);
         startSmoothScroll(scroller);
     }
@@ -198,8 +212,12 @@ public class TestLayoutManager extends RecyclerView.LayoutManager implements Rec
     @Override
     public PointF computeScrollVectorForPosition(int targetPosition) {
         float targetAngle = targetPosition * mBuilder.mIntervalAngle;
+        int targetOffset = angleToOffset(targetAngle);
+        // 返回1或-1代表滚动到目标位置所需的方向向量
+        // 还要乘以一个比例，是因为我们之前将水平滑动的距离映射到旋转的角度上，现在旋转到目标所需的滑动距离也需要映射回去。
+        float ratio = (float) targetOffset / oneCircleDistance();
         return new PointF(
-                targetAngle > mCurrentAngle ? 1 : -1, 0
+                ratio * (targetAngle > mCurrentAngle ? 1 : -1), 0
         );
     }
 
