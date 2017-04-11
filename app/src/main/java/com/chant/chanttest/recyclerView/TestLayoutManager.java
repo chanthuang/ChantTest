@@ -1,5 +1,8 @@
 package com.chant.chanttest.recyclerView;
 
+import android.graphics.PointF;
+import android.support.annotation.Nullable;
+import android.support.v7.widget.LinearSmoothScroller;
 import android.support.v7.widget.RecyclerView;
 import android.util.SparseArray;
 import android.util.SparseBooleanArray;
@@ -11,7 +14,7 @@ import com.chant.chanttest.util.QMUIDisplayHelper;
 import java.util.HashSet;
 import java.util.Set;
 
-public class TestLayoutManager extends RecyclerView.LayoutManager {
+public class TestLayoutManager extends RecyclerView.LayoutManager implements RecyclerView.SmoothScroller.ScrollVectorProvider {
 
     private SparseArray<Float> mAllItemsAngle = new SparseArray<>();
     private SparseBooleanArray mIsItemsAttached = new SparseBooleanArray();
@@ -164,6 +167,45 @@ public class TestLayoutManager extends RecyclerView.LayoutManager {
         int oneCircleDistance = QMUIDisplayHelper.dpToPx(200); // 每拖动这么多距离就旋转一周
         return (int) (angle / 360 * oneCircleDistance);
     }
+
+    // smoothScroll 相关
+
+    @Override
+    public void smoothScrollToPosition(RecyclerView recyclerView, RecyclerView.State state, int position) {
+        LinearSmoothScroller scroller = new LinearSmoothScroller(recyclerView.getContext());
+        scroller.setTargetPosition(position);
+        startSmoothScroll(scroller);
+    }
+
+    @Override
+    public void scrollToPosition(int position) {
+        if (position < 0 || position > getItemCount() - 1) {
+            return;
+        }
+        float targetAngle = position * mBuilder.mIntervalAngle;
+        if (targetAngle == mCurrentAngle) {
+            return;
+        }
+        mCurrentAngle = targetAngle;
+        if (mCurrentAngle > maxAngle()) {
+            mCurrentAngle = maxAngle();
+        } else if (mCurrentAngle < minAngle()) {
+            mCurrentAngle = minAngle();
+        }
+        requestLayout();
+    }
+
+    @Override
+    public PointF computeScrollVectorForPosition(int targetPosition) {
+        float targetAngle = targetPosition * mBuilder.mIntervalAngle;
+        return new PointF(
+                targetAngle > mCurrentAngle ? 1 : -1, 0
+        );
+    }
+
+    // end smoothScroll 相关
+
+    // builder
 
     public static class Builder {
         float mIntervalAngle; // 每个Child之间的角度,360度制
