@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <com.chant.chanttest.roundbutton.RoundButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="圆角自适应高度"
+        app:roundButton_bgColor="@color/round_button_bg"
+        app:roundButton_borderColor="@color/round_button_border"
+        app:roundButton_borderWidth="2px"
+        app:roundButton_isHalfHeightRadius="true"/>
+
+    <com.chant.chanttest.roundbutton.RoundButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="指定圆角大小"
+        app:roundButton_bgColor="@color/round_button_bg"
+        app:roundButton_borderColor="@color/round_button_border"
+        app:roundButton_borderWidth="2px"
+        app:roundButton_radius="4dp"/>
+
+    <FrameLayout android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal"
+                 android:layout_marginTop="10dp">
+
+        <com.chant.chanttest.roundbutton.RoundButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="指"
+            app:roundButton_bgColor="@color/round_button_bg"
+            app:roundButton_borderColor="@color/round_button_border"
+            app:roundButton_borderWidth="2px"
+            app:roundButton_radiusTopLeft="8dp"/>
+
+        <com.chant.chanttest.roundbutton.RoundButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="64dp"
+            android:gravity="center"
+            android:text="定"
+            app:roundButton_bgColor="@color/round_button_bg"
+            app:roundButton_borderColor="@color/round_button_border"
+            app:roundButton_borderWidth="2px"
+            app:roundButton_radiusTopRight="8dp"/>
+
+        <com.chant.chanttest.roundbutton.RoundButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="64dp"
+            android:gravity="center"
+            android:text="方"
+            app:roundButton_bgColor="@color/round_button_bg"
+            app:roundButton_borderColor="@color/round_button_border"
+            app:roundButton_borderWidth="2px"
+            app:roundButton_radiusBottomLeft="8dp"/>
+
+        <com.chant.chanttest.roundbutton.RoundButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="64dp"
+            android:layout_marginTop="64dp"
+            android:gravity="center"
+            android:text="向"
+            app:roundButton_bgColor="@color/round_button_bg"
+            app:roundButton_borderColor="@color/round_button_border"
+            app:roundButton_borderWidth="2px"
+            app:roundButton_radiusBottomRight="8dp"/>
+
+    </FrameLayout>
+
+    <com.chant.chanttest.roundbutton.RoundFrameLayout android:layout_width="wrap_content"
+                                                      android:layout_height="wrap_content"
+                                                      android:layout_marginTop="10dp"
+                                                      android:orientation="horizontal"
+                                                      android:padding="20dp"
+                                                      app:roundButton_bgColor="@color/round_button_bg"
+                                                      app:roundButton_borderColor="@color/round_button_border"
+                                                      app:roundButton_borderWidth="2px"
+                                                      app:roundButton_radius="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFF6F6F6"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Child in FrameLayout"/>
+
+    </com.chant.chanttest.roundbutton.RoundFrameLayout>
+</LinearLayout>
