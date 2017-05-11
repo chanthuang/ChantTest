@@ -52,6 +52,10 @@ dependencies {
 
     // ButterKnife
     compile 'com.jakewharton:butterknife:7.0.1'
+
+    compile ('com.alibaba.android:vlayout:1.0.5@aar') {
+        transitive = true
+    }
 }
 
 apply plugin: 'com.tencent.mm.WxSVG'
