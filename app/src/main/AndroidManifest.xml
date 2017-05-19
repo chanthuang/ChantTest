@@ -40,6 +40,9 @@
         </activity>
 
         <activity android:name=".vlayout.VLayoutActivity">
+        </activity>
+
+        <activity android:name=".font.TestFontActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
