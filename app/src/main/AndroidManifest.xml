@@ -40,9 +40,6 @@
         <activity android:name=".recyclerView.RecyclerViewActivity">
         </activity>
 
-        <activity android:name=".roundbutton.MainActivity">
-        </activity>
-
         <activity android:name=".vlayout.VLayoutActivity">
         </activity>
 
