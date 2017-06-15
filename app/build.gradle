@@ -39,9 +39,10 @@ repositories {
         url uri('http://maven.oa.com/nexus/content/repositories/thirdparty/')
     }
 
-    flatDir {
-        dirs 'aars' //this way we can find the .aar file in libs folder
-    }
+    // 本地 aar 包
+//    flatDir {
+//        dirs 'aars' //this way we can find the .aar file in libs folder
+//    }
 }
 
 dependencies {
@@ -64,7 +65,7 @@ dependencies {
     // 远程 aar 包
 //    compile 'qmui:qmui:0.0.2'
     // 本地 aar 包
-    compile (name:'qmui-0.0.5', ext:'aar')
+//    compile (name:'qmui-0.0.5', ext:'aar')
 
 }
 

@@ -20,12 +20,25 @@ public class TouchEventActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_touch_event);
 
-        DraggableParentView parentView = (DraggableParentView) findViewById(R.id.parentView);
-        parentView.setPeekHeight(QMUIDisplayHelper.dp2px(this, 200));
+        final DraggableParentView parentView = (DraggableParentView) findViewById(R.id.parentView);
+        parentView.setPeekHeight(QMUIDisplayHelper.dp2px(this, 200)); // 最小高度
+        parentView.setChildMaxHeight(QMUIDisplayHelper.getScreenHeight(this) - QMUIDisplayHelper.dp2px(this, 200)); // 最大高度
+        parentView.setDraggingChangedListener(new DraggableParentView.DraggingChangedListener() {
+            @Override
+            public void onChildHeightChanged(int height, float slideOffset) {
+                // 高度变化回调
+                Log.i("chant", "height=" + height + ", offset=" + slideOffset);
+            }
+        });
 
         findViewById(R.id.testButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                if (parentView.getState() == DraggableParentView.STATE_COLLAPSED) {
+                    parentView.setState(DraggableParentView.STATE_EXPANDED);
+                } else {
+                    parentView.setState(DraggableParentView.STATE_COLLAPSED);
+                }
                 Log.i("chant", "Button OnClick");
                 Toast.makeText(TouchEventActivity.this, "onClick", Toast.LENGTH_SHORT).show();
             }

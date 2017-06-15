@@ -7,12 +7,12 @@ import com.chant.chanttest.ChantTestApplication;
 
 public class FontUtil {
 
-    public static Typeface TYPEFACE_SONG_SAN;
+    public static Typeface TYPEFACE_SOURCE_HANSERIF;
 
     static {
         try {
-            Typeface tmpSongSan = Typeface.createFromAsset(ChantTestApplication.sharedInstance().getAssets(), "SourceHanSerif-Medium.ttc");
-            TYPEFACE_SONG_SAN = Typeface.create(tmpSongSan, Typeface.NORMAL);
+            Typeface tmp = Typeface.createFromAsset(ChantTestApplication.sharedInstance().getAssets(), "SourceHanSerif-Medium.ttc");
+            TYPEFACE_SOURCE_HANSERIF = Typeface.create(tmp, Typeface.NORMAL);
         } catch (Exception e) {
             Log.i("chant", e.getMessage());
         }

@@ -17,18 +17,22 @@ public class DraggableParentView extends FrameLayout {
 
     public interface DraggableChild {
         /**
+         * @param parentView parent
          * @param x 相对于 child 的坐标
          * @param y 相对于 child 的坐标
          * @return 在这个坐标上是否开始可以拖动
          */
-        boolean isPointDraggable(int x, int y);
+        boolean isPointDraggable(DraggableParentView parentView, int x, int y);
     }
 
     public interface DraggingChangedListener {
         /**
          * Child 的高度改变时触发
+         *
+         * @param height      child 的实时高度
+         * @param slideOffset 滚动的偏移量
          */
-        void onChildHeightChanged(int height);
+        void onChildHeightChanged(int height, float slideOffset);
     }
 
     public interface OnStateChangedListener {
@@ -42,9 +46,21 @@ public class DraggableParentView extends FrameLayout {
 
     private int mTouchSlop;
 
+    /**
+     * 拖动过程中
+     */
     public static final int STATE_DRAGGING = 1;
+    /**
+     * 展开状态
+     */
     public static final int STATE_EXPANDED = 2;
+    /**
+     * 自动滑动过程中
+     */
     public static final int STATE_SETTLING = 3;
+    /**
+     * 收起状态
+     */
     public static final int STATE_COLLAPSED = 4;
 
     @IntDef({STATE_EXPANDED, STATE_COLLAPSED, STATE_SETTLING, STATE_DRAGGING})
@@ -124,6 +140,7 @@ public class DraggableParentView extends FrameLayout {
                 mLastY = ev.getY();
                 // 按下时记录是否处于可拖动区域
                 mIsDownInDraggableArea = mDraggableChild.isPointDraggable(
+                        this,
                         (int) ev.getX() - mChildView.getLeft(),
                         (int) ev.getY() - mChildView.getTop());
                 break;
@@ -197,6 +214,10 @@ public class DraggableParentView extends FrameLayout {
         return mPeekHeight;
     }
 
+    public void setChildMaxHeight(int maxHeight) {
+        mChildMaxHeight = maxHeight;
+    }
+
     public int getChildMaxHeight() {
         if (mChildMaxHeight < 0) {
             mChildMaxHeight = getHeight();
@@ -216,7 +237,7 @@ public class DraggableParentView extends FrameLayout {
         mChildView.getLayoutParams().height = height;
         mChildView.setLayoutParams(mChildView.getLayoutParams());
         if (mDraggingChangedListener != null) {
-            mDraggingChangedListener.onChildHeightChanged(height);
+            mDraggingChangedListener.onChildHeightChanged(height, (float) (height - getPeekHeight()) / (getChildMaxHeight() - getPeekHeight()));
         }
     }
 
