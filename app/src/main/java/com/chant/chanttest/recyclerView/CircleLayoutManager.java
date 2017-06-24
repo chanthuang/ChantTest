@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 public class CircleLayoutManager extends CustomLayoutManager {
 
     private static int INTERVAL_ANGLE = 60;// The default interval angle between each items
-    private static float DISTANCE_RATIO = 10f; // Finger swipe distance divide item rotate angle
+    private static float DISTANCE_RATIO = 10f; // Finger swipe distance divide alibaba_vlayout_item rotate angle
 
     private int mRadius;
 

@@ -21,6 +21,7 @@ public class TestFontActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         LinearLayout layout = new LinearLayout(this);
+        layout.setBackgroundColor(Color.WHITE);
         layout.setDividerPadding(10);
         layout.setDividerDrawable(null);
         layout.setOrientation(LinearLayout.VERTICAL);

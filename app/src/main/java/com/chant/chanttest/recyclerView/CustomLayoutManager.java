@@ -38,7 +38,7 @@ public abstract class CustomLayoutManager extends RecyclerView.LayoutManager {
 
     private boolean isClockWise;
 
-    protected float interval; //the interval of each item's offset
+    protected float interval; //the interval of each alibaba_vlayout_item's offset
 
     private int targetPosition = -1;
 

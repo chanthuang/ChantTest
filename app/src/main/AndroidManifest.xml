@@ -25,10 +25,6 @@
         </activity>
 
         <activity android:name=".coordinator.CoordinatorActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
 
         <activity android:name=".multishrinkscroller.MultiShrinkScrollerActivity">
@@ -41,9 +37,19 @@
         </activity>
 
         <activity android:name=".vlayout.VLayoutActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".vlayout.AlibabaVLayoutActivity">
         </activity>
 
         <activity android:name=".font.TestFontActivity">
+        </activity>
+
+        <activity android:name=".colorfilter.ColorFilterActivity">
         </activity>
     </application>
 

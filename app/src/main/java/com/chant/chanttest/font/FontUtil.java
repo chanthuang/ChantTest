@@ -11,7 +11,7 @@ public class FontUtil {
 
     static {
         try {
-            Typeface tmp = Typeface.createFromAsset(ChantTestApplication.sharedInstance().getAssets(), "SourceHanSerif-Medium.ttc");
+            Typeface tmp = Typeface.createFromAsset(ChantTestApplication.sharedInstance().getAssets(), "SourceHanSerifCN-Medium.otf");
             TYPEFACE_SOURCE_HANSERIF = Typeface.create(tmp, Typeface.NORMAL);
         } catch (Exception e) {
             Log.i("chant", e.getMessage());
