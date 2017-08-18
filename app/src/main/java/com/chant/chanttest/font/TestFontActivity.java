@@ -28,26 +28,28 @@ public class TestFontActivity extends Activity {
 
         {
             TextView textView = createTextView();
-            textView.setTypeface(FontUtil.TYPEFACE_SOURCE_HANSERIF);
+            textView.setTypeface(FontUtil.Normal);
             textView.setBackgroundColor(0x80ff0000);
             layout.addView(textView);
         }
 
         {
             FontMetricsView fontMetricsView = new FontMetricsView(this);
-            fontMetricsView.setTypeface(FontUtil.TYPEFACE_SOURCE_HANSERIF);
+            fontMetricsView.setTypeface(FontUtil.Normal);
             fontMetricsView.setBackgroundColor(0x30ff0000);
             layout.addView(fontMetricsView, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         }
 
         {
             TextView textView = createTextView();
+            textView.setTypeface(FontUtil.Regular);
             textView.setBackgroundColor(0x8000ff00);
             layout.addView(textView);
         }
 
         {
             FontMetricsView fontMetricsView = new FontMetricsView(this);
+            fontMetricsView.setTypeface(FontUtil.Regular);
             fontMetricsView.setBackgroundColor(0x3000ff00);
             layout.addView(fontMetricsView, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         }

@@ -2,12 +2,9 @@ package com.chant.chanttest.colorfilter;
 
 import android.app.Activity;
 import android.graphics.Color;
-import android.graphics.ColorFilter;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
 import android.graphics.drawable.ColorDrawable;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.LayerDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,10 +12,9 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
-import com.chant.chanttest.R;
 import com.chant.chanttest.util.QMUIDisplayHelper;
-
-import java.util.ArrayList;
+import com.qmuiteam.qmui.widget.dialog.QMUIDialog;
+import com.qmuiteam.qmui.widget.dialog.QMUIDialogAction;
 
 public class ColorFilterActivity extends Activity {
 
@@ -51,7 +47,7 @@ public class ColorFilterActivity extends Activity {
     private void addImageView(LinearLayout row, int color, boolean useSystem) {
         ImageView imageView = new ImageView(this);
         imageView.setScaleType(ImageView.ScaleType.CENTER_INSIDE);
-        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(0, QMUIDisplayHelper.dpToPx(30));
+        LinearLayout.LayoutParams lp = new LinearLayout.LayoutParams(0, QMUIDisplayHelper.dpToPx(200));
         lp.weight = 1;
         row.addView(imageView, lp);
 
@@ -63,6 +59,27 @@ public class ColorFilterActivity extends Activity {
             colorD.setColor(porterDuffModeMultiply(srcColor, color));
         }
         imageView.setImageDrawable(colorD);
+        imageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                new QMUIDialog.MessageDialogBuilder(ColorFilterActivity.this)
+                        .setTitle("title")
+                        .setMessage("message")
+                        .addAction("取消", new QMUIDialogAction.ActionListener() {
+                            @Override
+                            public void onClick(QMUIDialog dialog, int index) {
+                                dialog.dismiss();
+                            }
+                        })
+                        .addAction("确定", new QMUIDialogAction.ActionListener() {
+                            @Override
+                            public void onClick(QMUIDialog dialog, int index) {
+                                dialog.dismiss();
+                            }
+                        })
+                        .show();
+            }
+        });
     }
 
     private static int porterDuffModeMultiply(int srcColor, int dstColor) {

@@ -4,8 +4,10 @@ import android.content.Context;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.PagerSnapHelper;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,6 +16,9 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import com.chant.chanttest.util.QMUIDisplayHelper;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RecyclerViewActivity extends FragmentActivity {
 
@@ -24,7 +29,7 @@ public class RecyclerViewActivity extends FragmentActivity {
         FrameLayout frameLayout = new FrameLayout(this);
 
         final TestRecyclerView recyclerView = new TestRecyclerView(this);
-        frameLayout.addView(recyclerView, ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT);
+        frameLayout.addView(recyclerView, ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.MATCH_PARENT);
 
 //        PagerSnapHelper pagerSnapHelper = new PagerSnapHelper();
 //        pagerSnapHelper.attachToRecyclerView(recyclerView);
@@ -41,46 +46,63 @@ public class RecyclerViewActivity extends FragmentActivity {
         final Adapter adapter = new Adapter();
         recyclerView.setAdapter(adapter);
 
-        {
-            Button button = new Button(this);
-            button.setText("addItem");
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    adapter.add();
-                }
-            });
-            FrameLayout.LayoutParams buttonLp1 = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-            frameLayout.addView(button, buttonLp1);
+        List<Integer> list = new ArrayList<>();
+        for (int i = 0; i < 20; i++) {
+            list.add(i, i);
         }
+        adapter.setData(list);
 
         {
             Button button = new Button(this);
-            button.setText("scroll to first");
+            button.setText("insert 1");
             button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    recyclerView.smoothScrollToPosition(0);
+                    adapter.insert(1);
                 }
             });
             FrameLayout.LayoutParams buttonLp1 = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
-            buttonLp1.topMargin = QMUIDisplayHelper.dpToPx(40);
-            frameLayout.addView(button, buttonLp1);
-        }
-
-        {
-            Button button = new Button(this);
-            button.setText("scroll to last");
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    recyclerView.smoothScrollToPosition(
-                            adapter.getItemCount() - 1
-                    );
-                }
-            });
-            FrameLayout.LayoutParams buttonLp1 = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+            buttonLp1.leftMargin = buttonLp1.rightMargin = QMUIDisplayHelper.dpToPx(40);
             buttonLp1.topMargin = QMUIDisplayHelper.dpToPx(80);
+            frameLayout.addView(button, buttonLp1);
+        }
+
+        {
+            Button button = new Button(this);
+            button.setText("insert 2");
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    adapter.insert(2);
+//                    recyclerView.smoothScrollToPosition(0);
+                }
+            });
+            FrameLayout.LayoutParams buttonLp1 = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+            buttonLp1.topMargin = QMUIDisplayHelper.dpToPx(40) + QMUIDisplayHelper.dpToPx(80);
+            buttonLp1.leftMargin = buttonLp1.rightMargin = QMUIDisplayHelper.dpToPx(40);
+            frameLayout.addView(button, buttonLp1);
+        }
+
+        {
+            Button button = new Button(this);
+            button.setText("reset");
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    List<Integer> list = new ArrayList<>();
+                    for (int i = 0; i < 20; i++) {
+                        list.add(i, i);
+                    }
+                    adapter.setData(list);
+
+//                    recyclerView.smoothScrollToPosition(
+//                            adapter.getItemCount() - 1
+//                    );
+                }
+            });
+            FrameLayout.LayoutParams buttonLp1 = new FrameLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
+            buttonLp1.topMargin = QMUIDisplayHelper.dpToPx(80) + QMUIDisplayHelper.dpToPx(80);
+            buttonLp1.leftMargin = buttonLp1.rightMargin = QMUIDisplayHelper.dpToPx(40);
             frameLayout.addView(button, buttonLp1);
         }
 
@@ -96,12 +118,22 @@ public class RecyclerViewActivity extends FragmentActivity {
 
     class Adapter extends RecyclerView.Adapter<VH> {
 
-        private int mCount = 20;
+        private List<Integer> mList = new ArrayList<>(20);
 
-        public void add() {
-            mCount++;
+        public void insert(int i) {
+            mList.add(i, 100);
+            notifyItemInserted(i);
+        }
+
+        public void setData(List<Integer> list) {
+            mList = list;
             notifyDataSetChanged();
         }
+
+//        public void add() {
+//            mCount++;
+//            notifyDataSetChanged();
+//        }
 
         @Override
         public VH onCreateViewHolder(ViewGroup parent, int viewType) {
@@ -113,14 +145,14 @@ public class RecyclerViewActivity extends FragmentActivity {
 
         @Override
         public void onBindViewHolder(VH holder, int position) {
-//            Log.i("chant", "[onBindViewHolder] position=" + position);
+            Log.i("chant", "[onBindViewHolder] position=" + position);
             ItemView itemView = (ItemView) holder.itemView;
-            itemView.render("d:" + String.valueOf(position));
+            itemView.render("d:" + mList.get(position));
         }
 
         @Override
         public int getItemCount() {
-            return mCount;
+            return mList.size();
         }
     }
 

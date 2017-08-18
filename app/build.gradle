@@ -62,9 +62,7 @@ dependencies {
         transitive = true
     }
 
-    // 远程 aar 包
-//    compile 'qmui:qmui:0.0.2'
-    // 本地 aar 包
+    compile 'com.qmuiteam:qmui:0.0.2'
 //    compile (name:'qmui-0.0.5', ext:'aar')
 
 }

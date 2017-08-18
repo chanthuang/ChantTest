@@ -16,7 +16,12 @@
         <activity android:name=".svg.IconVectorActivity"/>
         <activity android:name=".svg.IconPNGActivity"/>
 
-        <activity android:name=".transition.ActivityA"/>
+        <activity android:name=".transition.ActivityA">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
         <activity android:name=".transition.ActivityB"/>
         <activity android:name=".transition.MyFragmentActivity">
         </activity>
@@ -37,10 +42,6 @@
         </activity>
 
         <activity android:name=".vlayout.VLayoutActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
 
         <activity android:name=".vlayout.AlibabaVLayoutActivity">
