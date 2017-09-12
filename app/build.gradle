@@ -62,7 +62,9 @@ dependencies {
         transitive = true
     }
 
-    compile 'com.qmuiteam:qmui:0.0.2'
+    compile('com.qmuiteam:qmui:1.0.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
 //    compile (name:'qmui-0.0.5', ext:'aar')
 
 }
