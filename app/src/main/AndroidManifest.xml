@@ -17,10 +17,6 @@
         <activity android:name=".svg.IconPNGActivity"/>
 
         <activity android:name=".transition.ActivityA">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
         <activity android:name=".transition.ActivityB"/>
         <activity android:name=".transition.MyFragmentActivity">
@@ -48,6 +44,10 @@
         </activity>
 
         <activity android:name=".font.TestFontActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
         </activity>
 
         <activity android:name=".colorfilter.ColorFilterActivity">

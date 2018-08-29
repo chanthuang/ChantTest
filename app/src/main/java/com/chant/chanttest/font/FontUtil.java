@@ -7,23 +7,23 @@ import com.chant.chanttest.ChantTestApplication;
 
 public class FontUtil {
 
-    public static Typeface Normal;
+    public static Typeface SourceHanSerifCNMedium;
 
     static {
         try {
-            Typeface tmp = Typeface.createFromAsset(ChantTestApplication.sharedInstance().getAssets(), "SourceHanSansCN-Normal.otf");
-            Normal = Typeface.create(tmp, Typeface.NORMAL);
+            Typeface tmp = Typeface.createFromAsset(ChantTestApplication.sharedInstance().getAssets(), "SourceHanSerifCN-Medium.otf");
+            SourceHanSerifCNMedium = Typeface.create(tmp, Typeface.NORMAL);
         } catch (Exception e) {
             Log.i("chant", e.getMessage());
         }
     }
 
-    public static Typeface Regular;
+    public static Typeface SourceHanSerifCNMedium_Modify;
 
     static {
         try {
-            Typeface tmp = Typeface.createFromAsset(ChantTestApplication.sharedInstance().getAssets(), "SourceHanSansCN-Regular.otf");
-            Regular = Typeface.create(tmp, Typeface.NORMAL);
+            Typeface tmp = Typeface.createFromAsset(ChantTestApplication.sharedInstance().getAssets(), "SourceHanSerifCN-Medium_FDK_motify.otf");
+            SourceHanSerifCNMedium_Modify = Typeface.create(tmp, Typeface.NORMAL);
         } catch (Exception e) {
             Log.i("chant", e.getMessage());
         }

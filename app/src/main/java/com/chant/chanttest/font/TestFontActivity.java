@@ -27,29 +27,27 @@ public class TestFontActivity extends Activity {
         layout.setOrientation(LinearLayout.VERTICAL);
 
         {
-            TextView textView = createTextView();
-            textView.setTypeface(FontUtil.Normal);
+            String text = "思源宋体 Medium 在 Android 中行高特别高，所以显示时会导致 TextView 的上下内间距特别高。";
+            TextView textView = createTextView(text);
+            textView.setTypeface(FontUtil.SourceHanSerifCNMedium);
             textView.setBackgroundColor(0x80ff0000);
             layout.addView(textView);
-        }
 
-        {
-            FontMetricsView fontMetricsView = new FontMetricsView(this);
-            fontMetricsView.setTypeface(FontUtil.Normal);
+            FontMetricsView fontMetricsView = new FontMetricsView(this, text);
+            fontMetricsView.setTypeface(FontUtil.SourceHanSerifCNMedium);
             fontMetricsView.setBackgroundColor(0x30ff0000);
             layout.addView(fontMetricsView, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         }
 
         {
-            TextView textView = createTextView();
-            textView.setTypeface(FontUtil.Regular);
+            String text = "使用 ADOBE OPENTYPE FONT DEVELOPER'S KIT(\"FDK\") 修改字体文件中的信息，解决该问题。";
+            TextView textView = createTextView(text);
+            textView.setTypeface(FontUtil.SourceHanSerifCNMedium_Modify);
             textView.setBackgroundColor(0x8000ff00);
             layout.addView(textView);
-        }
 
-        {
-            FontMetricsView fontMetricsView = new FontMetricsView(this);
-            fontMetricsView.setTypeface(FontUtil.Regular);
+            FontMetricsView fontMetricsView = new FontMetricsView(this, text);
+            fontMetricsView.setTypeface(FontUtil.SourceHanSerifCNMedium_Modify);
             fontMetricsView.setBackgroundColor(0x3000ff00);
             layout.addView(fontMetricsView, new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT));
         }
@@ -57,13 +55,11 @@ public class TestFontActivity extends Activity {
         setContentView(layout);
     }
 
-    private static final String sTEXT= "1995年11月15日正式确定每年4月23日为“世界图书与版权日”，设立目的是推动更多的人去阅读和写作，希望所有人都能尊重和感谢为人类文明做出过巨大贡献的文学、文化、科学、思想大师们，保护知识产权。";
-
-    private TextView createTextView() {
+    private TextView createTextView(String text) {
         TextView textView = new TextView(this);
         textView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 21);
         textView.setLineSpacing(QMUIDisplayHelper.dpToPx(4), 1);
-        textView.setText(sTEXT);
+        textView.setText(text);
         return textView;
     }
 
@@ -71,9 +67,11 @@ public class TestFontActivity extends Activity {
         private Paint mPaint;
         private Paint mLineTextPaint;
         private Paint mLinePaint;
+        private String mText;
 
-        public FontMetricsView(Context context) {
+        public FontMetricsView(Context context, String text) {
             super(context);
+            mText = text;
 
             mPaint = new Paint();
             mPaint.setAntiAlias(true);
@@ -99,7 +97,7 @@ public class TestFontActivity extends Activity {
         @Override
         protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
             super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-            setMeasuredDimension((int) mPaint.measureText(sTEXT), QMUIDisplayHelper.dpToPx(80));
+            setMeasuredDimension((int) mPaint.measureText(mText), QMUIDisplayHelper.dpToPx(80));
         }
 
         @Override
@@ -127,7 +125,7 @@ public class TestFontActivity extends Activity {
             canvas.drawLine(0, bottom, getWidth(), bottom, mLinePaint);
             canvas.drawText("bottom", 0, bottom, mLineTextPaint);
 
-            canvas.drawText(sTEXT, 0, leading, mPaint);
+            canvas.drawText(mText, 0, leading, mPaint);
 
         }
     }
